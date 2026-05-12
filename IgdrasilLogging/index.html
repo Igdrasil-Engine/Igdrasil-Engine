@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+    <meta charset='UTF-8'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+    <title>IgdrasilLogging</title>
+    <style>
+        :root {
+    --bg-primary: #ffffff;
+    --bg-secondary: #f5f5f5;
+    --bg-tertiary: #f0f0f0;
+    --text-primary: #333333;
+    --text-secondary: #666666;
+    --border-color: #dddddd;
+    --accent-color: #007bff;
+    --accent-hover: #0056b3;
+    --link-color: #0066cc;
+    --link-hover: #0052a3;
+    --code-bg: #f4f4f4;
+    --code-border: #e0e0e0;
+    --api-class: #2E7D32;
+    --api-method: #1976D2;
+    --api-property: #F57C00;
+    --api-enum: #7B1FA2;
+    --api-interface: #C2185B;
+}
+
+html.dark-mode {
+    --bg-primary: #1e1e1e;
+    --bg-secondary: #2d2d2d;
+    --bg-tertiary: #3a3a3a;
+    --text-primary: #e0e0e0;
+    --text-secondary: #b0b0b0;
+    --border-color: #444444;
+    --accent-color: #4da6ff;
+    --accent-hover: #6bb3ff;
+    --link-color: #5eb3ff;
+    --link-hover: #7ec4ff;
+    --code-bg: #2d2d2d;
+    --code-border: #3a3a3a;
+    --api-class: #66BB6A;
+    --api-method: #64B5F6;
+    --api-property: #FFB74D;
+    --api-enum: #BA68C8;
+    --api-interface: #F06292;
+}
+
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: var(--bg-secondary);
+}
+
+::-webkit-scrollbar-thumb {
+    background: var(--border-color);
+    border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: var(--accent-color);
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
+    line-height: 1.6;
+    background: var(--bg-primary);
+    color: var(--text-primary);
+    display: flex;
+    min-height: 100vh;
+}
+
+a {
+    color: var(--link-color);
+    text-decoration: none;
+}
+
+a:hover {
+    color: var(--link-hover);
+    text-decoration: underline;
+}
+
+        /* ======================== HOME PAGE STYLES ======================== */
+body.home-page {
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+}
+
+body.home-page .container {
+    text-align: center;
+    max-width: 800px;
+}
+
+body.home-page h1 {
+    font-size: 3.5rem;
+    margin-bottom: 0.5rem;
+    color: var(--accent-color);
+}
+
+body.home-page .subtitle {
+    font-size: 1.3rem;
+    color: var(--text-secondary);
+    margin-bottom: 3rem;
+}
+
+body.home-page .nav-buttons {
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+    margin-bottom: 4rem;
+}
+
+body.home-page .nav-btn {
+    display: inline-block;
+    padding: 1rem 2rem;
+    background: var(--accent-color);
+    color: white;
+    text-decoration: none;
+    border-radius: 6px;
+    font-size: 1.1rem;
+    font-weight: 600;
+    transition: all 0.3s ease;
+    border: 2px solid var(--accent-color);
+}
+
+body.home-page .nav-btn:hover {
+    background: var(--accent-hover);
+    border-color: var(--accent-hover);
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(0, 123, 255, 0.3);
+}
+
+body.home-page .nav-btn.secondary {
+    background: transparent;
+    color: var(--accent-color);
+    border: 2px solid var(--accent-color);
+}
+
+body.home-page .nav-btn.secondary:hover {
+    background: var(--accent-color);
+    color: white;
+}
+
+body.home-page .stats {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 1.5rem;
+    margin-top: 3rem;
+    padding-top: 3rem;
+    border-top: 2px solid var(--border-color);
+}
+
+body.home-page .stat-card {
+    background: var(--bg-secondary);
+    padding: 2rem 1rem;
+    border-radius: 6px;
+    border: 1px solid var(--border-color);
+}
+
+body.home-page .stat-value {
+    font-size: 2rem;
+    font-weight: 700;
+    color: var(--accent-color);
+    margin-bottom: 0.5rem;
+}
+
+body.home-page .stat-label {
+    font-size: 0.9rem;
+    color: var(--text-secondary);
+}
+
+.theme-toggle {
+    background: var(--bg-tertiary);
+    border: 1px solid var(--border-color);
+    padding: 0.4rem 0.6rem;
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: 0.9rem;
+    color: var(--text-primary);
+    transition: background 0.2s;
+}
+
+.theme-toggle:hover {
+    background: var(--accent-color);
+    color: white;
+}
+
+.back-button {
+    background: var(--bg-tertiary);
+    border: 1px solid var(--border-color);
+    padding: 0.4rem 0.6rem;
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: 0.9rem;
+    color: var(--text-primary);
+    transition: background 0.2s;
+}
+
+.back-button:hover {
+    background: var(--accent-color);
+    color: white;
+}
+
+    </style>
+</head>
+<body class="home-page">
+    <button class="theme-toggle" style="position: fixed; top: 1.5rem; right: 1.5rem;" onclick="toggleTheme()">🌓</button>
+    <button class="back-button" style="position: fixed; top: 1.5rem; left: 1.5rem;" onclick="history.back()" title="Go back">← Назад</button>
+    <div class="container">
+        <h1>Documentation</h1>
+        <p class="subtitle">IgdrasilLogging</p>
+
+        <div class="nav-buttons">
+            
+            <a href="/IgdrasilLogging/api/" class="nav-btn">📚 API Reference</a>
+            
+            
+            <a href="/IgdrasilLogging/docs/" class="nav-btn secondary">📖 Guides</a>
+            
+        </div>
+
+        
+        <div class="stats">
+            
+            <div class="stat-card">
+                <div class="stat-value">9</div>
+                <div class="stat-label">API Elements</div>
+            </div>
+            
+            
+            <div class="stat-card">
+                <div class="stat-value">2</div>
+                <div class="stat-label">Documentation Pages</div>
+            </div>
+            
+            
+        </div>
+        
+    </div>
+    
+    <script>
+    function toggleTheme() {
+        const html = document.documentElement;
+        const isDark = html.classList.toggle('dark-mode');
+        localStorage.setItem('theme', isDark ? 'dark' : 'light');
+    }
+    
+    const savedTheme = localStorage.getItem('theme');
+    if (savedTheme === 'dark') {
+        document.documentElement.classList.add('dark-mode');
+    }
+
+    function toggleNav(button) {
+        const navListId = button.getAttribute('data-toggle');
+        const navList = document.getElementById(navListId);
+        
+        if (!navList) return;
+        
+        const isCollapsed = navList.classList.contains('collapsed');
+        
+        if (isCollapsed) {
+            // Развернуть
+            navList.classList.remove('collapsed');
+            button.classList.remove('collapsed');
+            button.classList.add('expanded');
+            localStorage.setItem(`nav-${navListId}`, 'expanded');
+        } else {
+            // Свернуть
+            navList.classList.add('collapsed');
+            button.classList.remove('expanded');
+            button.classList.add('collapsed');
+            localStorage.setItem(`nav-${navListId}`, 'collapsed');
+        }
+    }
+
+    // Восстанавливаем состояние навигации из localStorage при загрузке
+    window.addEventListener('load', function() {
+        const toggles = document.querySelectorAll('.nav-toggle');
+        toggles.forEach(toggle => {
+            const navListId = toggle.getAttribute('data-toggle');
+            const state = localStorage.getItem(`nav-${navListId}`);
+            const navList = document.getElementById(navListId);
+            if (!navList) return;
+
+            if (state === 'expanded') {
+                navList.classList.remove('collapsed');
+                toggle.classList.remove('collapsed');
+                toggle.classList.add('expanded');
+            } else if (state === 'collapsed') {
+                navList.classList.add('collapsed');
+                toggle.classList.remove('expanded');
+                toggle.classList.add('collapsed');
+            } else {
+                // No state saved: default collapsed already set in HTML
+            }
+        });
+
+        // Инициализация ширины сайдбара
+        initSidebarWidth();
+        // Восстановление состояния сворачивания сайдбара
+        const sidebar = document.getElementById('sidebar');
+        const collapsed = localStorage.getItem('sidebar-collapsed') === 'true';
+        if (collapsed) {
+            sidebar.classList.add('collapsed');
+            sidebar.style.width = '0px';
+            const btn = document.querySelector('.sidebar-collapse-toggle');
+            if (btn) btn.classList.add('collapsed');
+        } else {
+            const savedWidth = localStorage.getItem('sidebar-width');
+            if (savedWidth) sidebar.style.width = `${savedWidth}px`;
+        }
+        
+        // Настройка ресайзера
+        const resizer = document.getElementById('sidebarResizer');
+        setupSidebarResizer(sidebar, resizer);
+    });
+
+    function toggleSidebarCollapse() {
+        const sidebar = document.getElementById('sidebar');
+        const btn = document.querySelector('.sidebar-collapse-toggle');
+        const isCollapsed = sidebar.classList.contains('collapsed');
+
+        if (!isCollapsed) {
+            // Collapse: store current width and set to 0
+            const widthPx = parseInt(getComputedStyle(sidebar).width, 10);
+            localStorage.setItem('sidebar-last-width', widthPx.toString());
+            sidebar.classList.add('collapsed');
+            sidebar.style.width = '0px';
+            if (btn) { btn.classList.add('collapsed'); }
+            localStorage.setItem('sidebar-collapsed', 'true');
+        } else {
+            // Expand: restore width
+            sidebar.classList.remove('collapsed');
+            const savedWidth = localStorage.getItem('sidebar-width') || localStorage.getItem('sidebar-last-width');
+            if (savedWidth) sidebar.style.width = `${savedWidth}px`; else sidebar.style.width = '';
+            if (btn) { btn.classList.remove('collapsed'); }
+            localStorage.setItem('sidebar-collapsed', 'false');
+        }
+    }
+
+    function initSidebarWidth() {
+        const sidebar = document.getElementById('sidebar');
+        const savedWidth = localStorage.getItem('sidebar-width');
+        if (savedWidth) {
+            sidebar.style.width = `${savedWidth}px`;
+        }
+    }
+
+    function setupSidebarResizer(sidebar, resizer) {
+        let startX = 0;
+        let startWidth = 0;
+        const minWidth = 200;
+        const maxWidth = 500;
+
+        function onMouseMove(e) {
+            const dx = e.clientX - startX;
+            let newWidth = startWidth + dx;
+            newWidth = Math.max(minWidth, Math.min(maxWidth, newWidth));
+            sidebar.style.width = `${newWidth}px`;
+        }
+
+        function onMouseUp() {
+            document.removeEventListener('mousemove', onMouseMove);
+            document.removeEventListener('mouseup', onMouseUp);
+            document.body.classList.remove('resizing');
+            const widthPx = parseInt(getComputedStyle(sidebar).width, 10);
+            localStorage.setItem('sidebar-width', widthPx.toString());
+        }
+
+        resizer.addEventListener('mousedown', function(e) {
+            e.preventDefault();
+            if (sidebar.classList.contains('collapsed')) {
+                sidebar.classList.remove('collapsed');
+                localStorage.setItem('sidebar-collapsed', 'false');
+                const btn = document.querySelector('.sidebar-collapse-toggle');
+                if (btn) btn.classList.remove('collapsed');
+            }
+            startX = e.clientX;
+            startWidth = parseInt(getComputedStyle(sidebar).width, 10);
+            document.body.classList.add('resizing');
+            document.addEventListener('mousemove', onMouseMove);
+            document.addEventListener('mouseup', onMouseUp);
+        });
+
+        // Двойной клик по ресайзеру — сброс ширины к стандартной
+        resizer.addEventListener('dblclick', function() {
+            sidebar.style.width = '';
+            localStorage.removeItem('sidebar-width');
+        });
+    }
+</script>
+
+</body>
+</html>
+

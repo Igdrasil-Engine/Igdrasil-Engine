@@ -1,0 +1,1463 @@
+[
+  {
+    "title": "IgdrasilEngine",
+    "url": "/IgdrasilAuto/api/igdrasilengine/index.html",
+    "type": "api",
+    "project": "IgdrasilEngine",
+    "content": "Namespace IgdrasilEngine",
+    "tags": [
+      "namespace"
+    ],
+    "category": "Namespaces"
+  },
+  {
+    "title": "Engine",
+    "url": "/api/igdrasilengine/engine.html",
+    "type": "api",
+    "project": "IgdrasilEngine",
+    "content": "Namespaces: IO Loaders Runtime --- Content: public static class AssemblyLoader \u003E Language: C# \u003E",
+    "tags": [
+      "class",
+      "interface",
+      "struct",
+      "enum"
+    ],
+    "category": "IgdrasilEngine"
+  },
+  {
+    "title": "Engine.AssemblyLoader",
+    "url": "/api/igdrasilengine/engine.html#assemblyloader",
+    "type": "api-member",
+    "project": "IgdrasilEngine",
+    "content": "public static void LoadAssemblies(string filepath, string secret) \u003E Language: C# \u003E",
+    "tags": [
+      "method",
+      "property",
+      "field",
+      "event"
+    ],
+    "category": "IgdrasilEngine"
+  },
+  {
+    "title": "Engine.IO",
+    "url": "/api/igdrasilengine/engine.html#io",
+    "type": "api-member",
+    "project": "IgdrasilEngine",
+    "content": "Namespaces: Assets --- Content: public class AssetRegistry \u003E Language: C# \u003E public class PackedAssembly \u003E Language: C# \u003E",
+    "tags": [
+      "method",
+      "property",
+      "field",
+      "event"
+    ],
+    "category": "IgdrasilEngine"
+  },
+  {
+    "title": "Engine.Loaders",
+    "url": "/api/igdrasilengine/engine.html#loaders",
+    "type": "api-member",
+    "project": "IgdrasilEngine",
+    "content": "--- Content: public static class IgdrasilDynamicLoader \u003E Language: C# \u003E public static class IgdrasilStaticLoader \u003E Language: C# \u003E",
+    "tags": [
+      "method",
+      "property",
+      "field",
+      "event"
+    ],
+    "category": "IgdrasilEngine"
+  },
+  {
+    "title": "Engine.Runtime",
+    "url": "/api/igdrasilengine/engine.html#runtime",
+    "type": "api-member",
+    "project": "IgdrasilEngine",
+    "content": "Namespaces: ResourceManagement",
+    "tags": [
+      "method",
+      "property",
+      "field",
+      "event"
+    ],
+    "category": "IgdrasilEngine"
+  },
+  {
+    "title": "IgdrasilEngine",
+    "url": "/IgdrasilMath/api/igdrasilengine/index.html",
+    "type": "api",
+    "project": "IgdrasilEngine",
+    "content": "Namespace IgdrasilEngine",
+    "tags": [
+      "namespace"
+    ],
+    "category": "Namespaces"
+  },
+  {
+    "title": "Engine",
+    "url": "/api/igdrasilengine/engine.html",
+    "type": "api",
+    "project": "IgdrasilEngine",
+    "content": "Namespaces: Math",
+    "tags": [
+      "class",
+      "interface",
+      "struct",
+      "enum"
+    ],
+    "category": "IgdrasilEngine"
+  },
+  {
+    "title": "Engine.Math",
+    "url": "/api/igdrasilengine/engine.html#math",
+    "type": "api-member",
+    "project": "IgdrasilEngine",
+    "content": "Namespaces: Boxes Curves Distributions Lines Matrices Noises Transforms Vectors --- Content: public static class MathUtils \u003E Language: C# \u003E \u003E \u0423\u0442\u0438\u043B\u0438\u0442\u044B \u0434\u043B\u044F \u043C\u0430\u0442\u0435\u043C\u0430\u0442\u0438\u0447\u0435\u0441\u043A\u0438\u0445 \u043E\u043F\u0435\u0440\u0430\u0446\u0438\u0439 \u003E \u003E",
+    "tags": [
+      "method",
+      "property",
+      "field",
+      "event"
+    ],
+    "category": "IgdrasilEngine"
+  },
+  {
+    "title": "IgdrasilEngine",
+    "url": "/IgdrasilCore/api/igdrasilengine/index.html",
+    "type": "api",
+    "project": "IgdrasilEngine",
+    "content": "Namespace IgdrasilEngine",
+    "tags": [
+      "namespace"
+    ],
+    "category": "Namespaces"
+  },
+  {
+    "title": "Engine",
+    "url": "/api/igdrasilengine/engine.html",
+    "type": "api",
+    "project": "IgdrasilEngine",
+    "content": "Namespaces: Attributes Exceptions IO Utils --- Content: public class GameObject \u003E Language: C# \u003E \u003E \u0411\u0430\u0437\u043E\u0432\u044B\u0439 \u043A\u043B\u0430\u0441\u0441 \u0434\u043B\u044F \u0432\u0441\u0435\u0445 \u0438\u0433\u0440\u043E\u0432\u044B\u0445 \u043E\u0431\u044A\u0435\u043A\u0442\u043E\u0432 \u0432 \u0434\u0432\u0438\u0436\u043A\u0435 \u003E \u003E public interface IPointable\u0026lt;T\u0026gt; \u003E Language: C# \u003E \u003E \u0418\u043D\u0442\u0435\u0440\u0444\u0435\u0439\u0441 \u0434\u043B\u044F \u043E\u0431\u044A\u0435\u043A\u0442\u043E\u0432, \u043A\u043E\u0442\u043E\u0440\u044B\u0435 \u043C\u043E\u0433\u0443\u0442 \u043F\u0440\u0435\u0434\u043E\u0441\u0442\u0430\u0432\u043B\u044F\u0442\u044C \u0443\u043A\u0430\u0437\u0430\u0442\u0435\u043B\u044C \u043D\u0430 \u043D\u0435\u0443\u043F\u0440\u0430\u0432\u043B\u044F\u0435\u043C\u044B\u0439 \u0440\u0435\u0441\u0443\u0440\u0441 \u003E \u003E \u003E Type Parameters: \u003E - T: \u0422\u0438\u043F \u0443\u043A\u0430\u0437\u0430\u0442\u0435\u043B\u044F \u003E",
+    "tags": [
+      "class",
+      "interface",
+      "struct",
+      "enum"
+    ],
+    "category": "IgdrasilEngine"
+  },
+  {
+    "title": "Engine.GameObject",
+    "url": "/api/igdrasilengine/engine.html#gameobject",
+    "type": "api-member",
+    "project": "IgdrasilEngine",
+    "content": "public Guid GUID { get; set; } \u003E Language: C# \u003E \u003E \u0423\u043D\u0438\u043A\u0430\u043B\u044C\u043D\u044B\u0439 \u0438\u0434\u0435\u043D\u0442\u0438\u0444\u0438\u043A\u0430\u0442\u043E\u0440 \u043E\u0431\u044A\u0435\u043A\u0442\u0430 \u003E \u003E public GameObject() \u003E Language: C# \u003E \u003E \u0421\u043E\u0437\u0434\u0430\u0435\u0442 \u043D\u043E\u0432\u044B\u0439 \u0438\u0433\u0440\u043E\u0432\u043E\u0439 \u043E\u0431\u044A\u0435\u043A\u0442 \u0441 \u0443\u043D\u0438\u043A\u0430\u043B\u044C\u043D\u044B\u043C GUID \u003E \u003E public GameObject(Guid GUID) \u003E Language: C# \u003E \u003E \u0421\u043E\u0437\u0434\u0430\u0435\u0442 \u0438\u0433\u0440\u043E\u0432\u043E\u0439 \u043E\u0431\u044A\u0435\u043A\u0442 \u0441 \u0437\u0430\u0434\u0430\u043D\u043D\u044B\u043C GUID \u003E \u003E \u003E Parameters: \u003E - GUID: \u0423\u043D\u0438\u043A\u0430\u043B\u044C\u043D...",
+    "tags": [
+      "method",
+      "property",
+      "field",
+      "event"
+    ],
+    "category": "IgdrasilEngine"
+  },
+  {
+    "title": "Engine.IPointable\u003CT\u003E",
+    "url": "/api/igdrasilengine/engine.html#ipointable_t_",
+    "type": "api-member",
+    "project": "IgdrasilEngine",
+    "content": "public T Pointer { get; } \u003E Language: C# \u003E \u003E \u0423\u043A\u0430\u0437\u0430\u0442\u0435\u043B\u044C \u043D\u0430 \u043D\u0435\u0443\u043F\u0440\u0430\u0432\u043B\u044F\u0435\u043C\u044B\u0439 \u0440\u0435\u0441\u0443\u0440\u0441 \u003E \u003E",
+    "tags": [
+      "method",
+      "property",
+      "field",
+      "event"
+    ],
+    "category": "IgdrasilEngine"
+  },
+  {
+    "title": "Engine.Attributes",
+    "url": "/api/igdrasilengine/engine.html#attributes",
+    "type": "api-member",
+    "project": "IgdrasilEngine",
+    "content": "--- Content: public class LimitCountAttribute : Attribute \u003E Language: C# \u003E \u003E \u041E\u0433\u0440\u0430\u043D\u0438\u0447\u0435\u043D\u0438\u0435 \u043A\u043E\u043B\u0438\u0447\u0435\u0441\u0442\u0432\u0430 \u044D\u043A\u0437\u0435\u043C\u043F\u043B\u044F\u0440\u043E\u0432 \u043A\u043B\u0430\u0441\u0441\u0430 \u0438\u043B\u0438 \u0438\u043D\u0442\u0435\u0440\u0444\u0435\u0439\u0441\u0430 \u043A\u043E\u0442\u043E\u0440\u044B\u0435 \u043C\u043E\u0433\u0443\u0442 \u0431\u044B\u0442\u044C \u0438\u0441\u043F\u043E\u043B\u044C\u0437\u043E\u0432\u0430\u043D\u043D\u044B \u0432\u043D\u0443\u0442\u0440\u0438 \u043E\u0431\u044A\u0435\u043A\u0442\u0430. \u003E \u003E \u041A\u0440\u0438\u0442\u0435\u0440\u0438\u0439 \u0438\u0441\u043F\u043E\u043B\u044C\u0437\u0443\u0435\u0442\u0441\u044F \u0432 \u043D\u0435\u0441\u043A\u043E\u043B\u044C\u043A\u0438\u0445 \u043C\u0435\u0445\u0430\u043D\u0438\u0437\u043C\u0430\u0445 \u0432\u0430\u043B\u0438\u0434\u0430\u0446\u0438\u0438, \u043D\u0430\u043F\u0440\u0438\u043C\u0435\u0440 \u0434\u043B\u044F \u0438\u0437\u0431\u0435\u0436\u0430\u043D\u0438\u044F \u043D\u0435\u0441\u043A\u043E\u043B\u044C\u043A\u0438\u0445 \u0442\u0440\u0430\u043D\u0441\u0444\u043E\u0440\u043C\u0430\u0446\u0438\u0439 \u043D\u0430 \u043E\u0434\u043D\u043E\u0439...",
+    "tags": [
+      "method",
+      "property",
+      "field",
+      "event"
+    ],
+    "category": "IgdrasilEngine"
+  },
+  {
+    "title": "Engine.Exceptions",
+    "url": "/api/igdrasilengine/engine.html#exceptions",
+    "type": "api-member",
+    "project": "IgdrasilEngine",
+    "content": "--- Content: public class AssetBundleException : IgdrasilException \u003E Language: C# \u003E \u003E \u0418\u0441\u043A\u043B\u044E\u0447\u0435\u043D\u0438\u0435, \u0441\u0432\u044F\u0437\u0430\u043D\u043D\u043E\u0435 \u0441 \u043E\u0448\u0438\u0431\u043A\u0430\u043C\u0438 \u043F\u0440\u0438 \u0440\u0430\u0431\u043E\u0442\u0435 \u0441 AssetBundle \u003E \u003E public static class ExceptionTags \u003E Language: C# \u003E \u003E \u0422\u0435\u0433\u0438 \u0434\u043B\u044F \u043A\u043B\u0430\u0441\u0441\u0438\u0444\u0438\u043A\u0430\u0446\u0438\u0438 \u0438\u0441\u043A\u043B\u044E\u0447\u0435\u043D\u0438\u0439 \u003E \u003E public class IgdrasilException : Exception \u003E Language: C# \u003E \u003E...",
+    "tags": [
+      "method",
+      "property",
+      "field",
+      "event"
+    ],
+    "category": "IgdrasilEngine"
+  },
+  {
+    "title": "Engine.IO",
+    "url": "/api/igdrasilengine/engine.html#io",
+    "type": "api-member",
+    "project": "IgdrasilEngine",
+    "content": "Namespaces: AssetBundle Serializables --- Content: public class BinaryReaderWithEndians : BinaryReader \u003E Language: C# \u003E \u003E BinaryReader \u0441 \u043F\u043E\u0434\u0434\u0435\u0440\u0436\u043A\u043E\u0439 big-endian \u0444\u043E\u0440\u043C\u0430\u0442\u0430 \u0434\u0430\u043D\u043D\u044B\u0445 \u003E \u003E public class BinaryWriterWithEndians : BinaryWriter \u003E Language: C# \u003E \u003E BinaryWriter \u0441 \u043F\u043E\u0434\u0434\u0435\u0440\u0436\u043A\u043E\u0439 big-endian \u0444\u043E\u0440\u043C\u0430\u0442\u0430 \u0434\u0430\u043D\u043D\u044B\u0445...",
+    "tags": [
+      "method",
+      "property",
+      "field",
+      "event"
+    ],
+    "category": "IgdrasilEngine"
+  },
+  {
+    "title": "Engine.Utils",
+    "url": "/api/igdrasilengine/engine.html#utils",
+    "type": "api-member",
+    "project": "IgdrasilEngine",
+    "content": "Namespaces: Adler Compression CRC Trees --- Content: public static class ComparisonUtils \u003E Language: C# \u003E \u003E \u0423\u0442\u0438\u043B\u0438\u0442\u044B \u0434\u043B\u044F \u0441\u0440\u0430\u0432\u043D\u0435\u043D\u0438\u044F \u043E\u0431\u044A\u0435\u043A\u0442\u043E\u0432 \u003E \u003E public static class EncryptionHelper \u003E Language: C# \u003E \u003E \u0425\u0435\u043B\u043F\u0435\u0440 \u0434\u043B\u044F \u0448\u0438\u0444\u0440\u043E\u0432\u0430\u043D\u0438\u044F \u0438 \u0434\u0435\u0448\u0438\u0444\u0440\u043E\u0432\u0430\u043D\u0438\u044F \u0434\u0430\u043D\u043D\u044B\u0445 \u0441 \u0438\u0441\u043F\u043E\u043B\u044C\u0437\u043E\u0432\u0430\u043D\u0438\u0435\u043C AES \u0438 RSA \u003E \u003E public static class HashHe...",
+    "tags": [
+      "method",
+      "property",
+      "field",
+      "event"
+    ],
+    "category": "IgdrasilEngine"
+  },
+  {
+    "title": "Editor",
+    "url": "/api/igdrasilengine/editor.html",
+    "type": "api",
+    "project": "IgdrasilEngine",
+    "content": "Namespaces: Attributes",
+    "tags": [
+      "class",
+      "interface",
+      "struct",
+      "enum"
+    ],
+    "category": "IgdrasilEngine"
+  },
+  {
+    "title": "Editor.Attributes",
+    "url": "/api/igdrasilengine/editor.html#attributes",
+    "type": "api-member",
+    "project": "IgdrasilEngine",
+    "content": "--- Content: public class HeaderAttribute : ShowInInspectorAttribute \u003E Language: C# \u003E \u003E \u0410\u0442\u0440\u0438\u0431\u0443\u0442 \u0434\u043B\u044F \u0434\u043E\u0431\u0430\u0432\u043B\u0435\u043D\u0438\u044F \u0437\u0430\u0433\u043E\u043B\u043E\u0432\u043A\u0430 \u0432 \u0438\u043D\u0441\u043F\u0435\u043A\u0442\u043E\u0440\u0435 \u0440\u0435\u0434\u0430\u043A\u0442\u043E\u0440\u0430 \u003E \u003E public class ShowInInspectorAttribute : Attribute \u003E Language: C# \u003E \u003E \u0410\u0442\u0440\u0438\u0431\u0443\u0442 \u0434\u043B\u044F \u043E\u0442\u043E\u0431\u0440\u0430\u0436\u0435\u043D\u0438\u044F \u043F\u043E\u043B\u044F \u0438\u043B\u0438 \u0441\u0432\u043E\u0439\u0441\u0442\u0432\u0430 \u0432 \u0438\u043D\u0441\u043F\u0435\u043A\u0442\u043E\u0440\u0435 \u0440\u0435\u0434\u0430\u043A\u0442\u043E\u0440\u0430 \u003E \u003E public class S...",
+    "tags": [
+      "method",
+      "property",
+      "field",
+      "event"
+    ],
+    "category": "IgdrasilEngine"
+  },
+  {
+    "title": "IgdrasilEngine",
+    "url": "/IgdrasilECS/api/igdrasilengine/index.html",
+    "type": "api",
+    "project": "IgdrasilEngine",
+    "content": "Namespace IgdrasilEngine",
+    "tags": [
+      "namespace"
+    ],
+    "category": "Namespaces"
+  },
+  {
+    "title": "Engine",
+    "url": "/api/igdrasilengine/engine.html",
+    "type": "api",
+    "project": "IgdrasilEngine",
+    "content": "Namespaces: ECS Scripting",
+    "tags": [
+      "class",
+      "interface",
+      "struct",
+      "enum"
+    ],
+    "category": "IgdrasilEngine"
+  },
+  {
+    "title": "Engine.ECS",
+    "url": "/api/igdrasilengine/engine.html#ecs",
+    "type": "api-member",
+    "project": "IgdrasilEngine",
+    "content": "Namespaces: Events --- Content: public abstract class Component : GameObject \u003E Language: C# \u003E \u003E \u0411\u0430\u0437\u043E\u0432\u044B\u0439 \u043A\u043B\u0430\u0441\u0441 \u0434\u043B\u044F \u0432\u0441\u0435\u0445 \u043A\u043E\u043C\u043F\u043E\u043D\u0435\u043D\u0442\u043E\u0432 ECS \u0441\u0438\u0441\u0442\u0435\u043C\u044B \u003E public sealed class Entity : GameObject, IAssetSerializable \u003E Language: C# \u003E \u003E \u0421\u0443\u0449\u043D\u043E\u0441\u0442\u044C \u0432 ECS \u0441\u0438\u0441\u0442\u0435\u043C\u0435, \u0441\u043E\u0434\u0435\u0440\u0436\u0430\u0449\u0430\u044F \u043A\u043E\u043C\u043F\u043E\u043D\u0435\u043D\u0442\u044B \u0438 \u0443\u043F\u0440\u0430\u0432\u043B\u044F\u044E\u0449\u0430\u044F \u0438\u043C\u0438 \u003E public abs...",
+    "tags": [
+      "method",
+      "property",
+      "field",
+      "event"
+    ],
+    "category": "IgdrasilEngine"
+  },
+  {
+    "title": "Engine.Scripting",
+    "url": "/api/igdrasilengine/engine.html#scripting",
+    "type": "api-member",
+    "project": "IgdrasilEngine",
+    "content": "Namespaces: Modules",
+    "tags": [
+      "method",
+      "property",
+      "field",
+      "event"
+    ],
+    "category": "IgdrasilEngine"
+  },
+  {
+    "title": "IgdrasilEngine",
+    "url": "/IgdrasilRender/api/igdrasilengine/index.html",
+    "type": "api",
+    "project": "IgdrasilEngine",
+    "content": "Namespace IgdrasilEngine",
+    "tags": [
+      "namespace"
+    ],
+    "category": "Namespaces"
+  },
+  {
+    "title": "Engine",
+    "url": "/api/igdrasilengine/engine.html",
+    "type": "api",
+    "project": "IgdrasilEngine",
+    "content": "Namespaces: Exceptions Graphics Render Tilemap Utils IO Runtime --- Content: public static class Igdrasil \u003E Language: C# \u003E \u003E \u041A\u043B\u0430\u0441\u0441 \u0434\u043B\u044F \u0438\u043D\u0438\u0446\u0438\u0430\u043B\u0438\u0437\u0430\u0446\u0438\u0438 \u0438 \u0443\u043F\u0440\u0430\u0432\u043B\u0435\u043D\u0438\u044F \u043E\u0441\u043D\u043E\u0432\u043D\u044B\u043C\u0438 \u043F\u043E\u0434\u0441\u0438\u0441\u0442\u0435\u043C\u0430\u043C\u0438 \u0434\u0432\u0438\u0436\u043A\u0430 Igdrasil \u003E public interface ITransformable2D \u003E Language: C# \u003E \u003E \u0418\u043D\u0442\u0435\u0440\u0444\u0435\u0439\u0441 \u0434\u043B\u044F 2D \u0442\u0440\u0430\u043D\u0441\u0444\u043E\u0440\u043C\u0438\u0440\u0443\u0435\u043C\u044B\u0445 \u043E\u0431\u044A\u0435\u043A\u0442\u043E\u0432 \u003E public interface ITransformable3D \u003E Language: C# \u003E \u003E \u0418\u043D\u0442\u0435\u0440\u0444\u0435\u0439\u0441 \u0434\u043B\u044F 3D \u0442\u0440\u0430\u043D\u0441\u0444\u043E\u0440\u043C\u0438\u0440\u0443\u0435\u043C\u044B\u0445 \u043E\u0431\u044A\u0435\u043A\u0442\u043E\u0432 \u003E public class Transform : RectBVH3DTransform\u0026lt;Transform\u0026gt;, ITransformable3D \u003E Language: C# \u003E \u003E \u041A\u043E\u043C...",
+    "tags": [
+      "class",
+      "interface",
+      "struct",
+      "enum"
+    ],
+    "category": "IgdrasilEngine"
+  },
+  {
+    "title": "Engine.Igdrasil",
+    "url": "/api/igdrasilengine/engine.html#igdrasil",
+    "type": "api-member",
+    "project": "IgdrasilEngine",
+    "content": "public static IAssetManager AssetManager { get; set; } \u003E Language: C# \u003E \u003E Return Value: new StaticAssetManager() \u003E \u003E \u041C\u0435\u043D\u0435\u0434\u0436\u0435\u0440 \u0430\u0441\u0441\u0435\u0442\u043E\u0432 \u0434\u0432\u0438\u0436\u043A\u0430 \u003E \u003E public static GameWindow? Window { get; set; } \u003E Language: C# \u003E \u003E \u0413\u043B\u0430\u0432\u043D\u043E\u0435 \u043E\u043A\u043D\u043E \u0434\u0432\u0438\u0436\u043A\u0430 \u003E \u003E public static IRenderContext? Context \u003E Language: C# \u003E \u003E \u041A\u043E\u043D\u0442\u0435\u043A\u0441\u0442...",
+    "tags": [
+      "method",
+      "property",
+      "field",
+      "event"
+    ],
+    "category": "IgdrasilEngine"
+  },
+  {
+    "title": "Engine.ITransformable2D",
+    "url": "/api/igdrasilengine/engine.html#itransformable2d",
+    "type": "api-member",
+    "project": "IgdrasilEngine",
+    "content": "public FVector2 Scale { get; set; } \u003E Language: C# \u003E \u003E \u041C\u0430\u0441\u0448\u0442\u0430\u0431 \u043E\u0431\u044A\u0435\u043A\u0442\u0430 \u003E \u003E public FVector2 Position { get; set; } \u003E Language: C# \u003E \u003E \u041F\u043E\u0437\u0438\u0446\u0438\u044F \u043E\u0431\u044A\u0435\u043A\u0442\u0430 \u003E \u003E public float Rotation { get; set; } \u003E Language: C# \u003E \u003E \u041F\u043E\u0432\u043E\u0440\u043E\u0442 \u043E\u0431\u044A\u0435\u043A\u0442\u0430 \u0432 \u0440\u0430\u0434\u0438\u0430\u043D\u0430\u0445 \u003E \u003E public static void Apply(ITransformable2D transformable, ref ...",
+    "tags": [
+      "method",
+      "property",
+      "field",
+      "event"
+    ],
+    "category": "IgdrasilEngine"
+  },
+  {
+    "title": "Engine.ITransformable3D",
+    "url": "/api/igdrasilengine/engine.html#itransformable3d",
+    "type": "api-member",
+    "project": "IgdrasilEngine",
+    "content": "public FVector3 Scale { get; set; } \u003E Language: C# \u003E \u003E \u041C\u0430\u0441\u0448\u0442\u0430\u0431 \u043E\u0431\u044A\u0435\u043A\u0442\u0430 \u003E \u003E public FVector3 Position { get; set; } \u003E Language: C# \u003E \u003E \u041F\u043E\u0437\u0438\u0446\u0438\u044F \u043E\u0431\u044A\u0435\u043A\u0442\u0430 \u003E \u003E public FQuaternion Rotation { get; set; } \u003E Language: C# \u003E \u003E \u041F\u043E\u0432\u043E\u0440\u043E\u0442 \u043E\u0431\u044A\u0435\u043A\u0442\u0430 \u0432 \u043A\u0432\u0430\u0442\u0435\u0440\u043D\u0438\u043E\u043D\u0435 \u003E \u003E public static void Apply(ITransformable3D transforma...",
+    "tags": [
+      "method",
+      "property",
+      "field",
+      "event"
+    ],
+    "category": "IgdrasilEngine"
+  },
+  {
+    "title": "Engine.Transform",
+    "url": "/api/igdrasilengine/engine.html#transform",
+    "type": "api-member",
+    "project": "IgdrasilEngine",
+    "content": "public Transform? Parent { get; set; } \u003E Language: C# \u003E \u003E \u0420\u043E\u0434\u0438\u0442\u0435\u043B\u044C\u0441\u043A\u0438\u0439 \u0442\u0440\u0430\u043D\u0441\u0444\u043E\u0440\u043C \u003E \u003E public override Entity? Entity { get; set; } \u003E Language: C# \u003E \u003E \u0421\u0443\u0449\u043D\u043E\u0441\u0442\u044C, \u043A \u043A\u043E\u0442\u043E\u0440\u043E\u0439 \u043F\u0440\u0438\u043A\u0440\u0435\u043F\u043B\u0435\u043D \u044D\u0442\u043E\u0442 \u043A\u043E\u043C\u043F\u043E\u043D\u0435\u043D\u0442 \u003E \u003E public FVector3 Position { get; set; } \u003E Language: C# \u003E \u003E \u041F\u043E\u0437\u0438\u0446\u0438\u044F \u0442\u0440\u0430\u043D\u0441\u0444\u043E\u0440\u043C\u0430 \u003E \u003E public FVector3 Scal...",
+    "tags": [
+      "method",
+      "property",
+      "field",
+      "event"
+    ],
+    "category": "IgdrasilEngine"
+  },
+  {
+    "title": "Engine.Exceptions",
+    "url": "/api/igdrasilengine/engine.html#exceptions",
+    "type": "api-member",
+    "project": "IgdrasilEngine",
+    "content": "--- Content: public class RenderContextException : IgdrasilException \u003E Language: C# \u003E \u003E \u0418\u0441\u043A\u043B\u044E\u0447\u0435\u043D\u0438\u0435, \u0432\u043E\u0437\u043D\u0438\u043A\u0430\u044E\u0449\u0435\u0435 \u043F\u0440\u0438 \u043E\u0442\u0441\u0443\u0442\u0441\u0442\u0432\u0438\u0438 \u043A\u043E\u043D\u0442\u0435\u043A\u0441\u0442\u0430 \u0440\u0435\u043D\u0434\u0435\u0440\u0438\u043D\u0433\u0430 \u003E public class TaskCancelledException : OperationCanceledException \u003E Language: C# \u003E \u003E \u0418\u0441\u043A\u043B\u044E\u0447\u0435\u043D\u0438\u0435, \u0432\u044B\u0431\u0440\u0430\u0441\u044B\u0432\u0430\u0435\u043C\u043E\u0435 \u043F\u0440\u0438 \u043E\u0442\u043C\u0435\u043D\u0435 \u0437\u0430\u0434\u0430\u0447\u0438 \u003E",
+    "tags": [
+      "method",
+      "property",
+      "field",
+      "event"
+    ],
+    "category": "IgdrasilEngine"
+  },
+  {
+    "title": "Engine.Graphics",
+    "url": "/api/igdrasilengine/engine.html#graphics",
+    "type": "api-member",
+    "project": "IgdrasilEngine",
+    "content": "Namespaces: Buffers Core Drawables Loaders Projections Structures --- Content: public static partial class CLI \u003E Language: C# \u003E \u003E \u0423\u043F\u0440\u0430\u0432\u043B\u0435\u043D\u0438\u0435 \u043A\u043E\u043D\u0441\u043E\u043B\u044C\u044E \u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u044F \u003E public class GameWindow \u003E Language: C# \u003E \u003E \u041E\u0441\u043D\u043E\u0432\u043D\u043E\u0439 \u043A\u043B\u0430\u0441\u0441 \u0438\u0433\u0440\u043E\u0432\u043E\u0433\u043E \u043E\u043A\u043D\u0430 \u0438 \u0440\u0435\u043D\u0434\u0435\u0440\u0438\u043D\u0433\u0430 \u003E public abstract class GraphicsLoadingTask \u003E Langua...",
+    "tags": [
+      "method",
+      "property",
+      "field",
+      "event"
+    ],
+    "category": "IgdrasilEngine"
+  },
+  {
+    "title": "Engine.Render",
+    "url": "/api/igdrasilengine/engine.html#render",
+    "type": "api-member",
+    "project": "IgdrasilEngine",
+    "content": "Namespaces: Components Systems --- Content: public static class Colors \u003E Language: C# \u003E \u003E \u0421\u0442\u0430\u0442\u0438\u0447\u0435\u0441\u043A\u0438\u0439 \u043A\u043B\u0430\u0441\u0441 \u0441 \u043F\u0440\u0435\u0434\u043E\u043F\u0440\u0435\u0434\u0435\u043B\u0435\u043D\u043D\u044B\u043C\u0438 \u0446\u0432\u0435\u0442\u0430\u043C\u0438 \u003E",
+    "tags": [
+      "method",
+      "property",
+      "field",
+      "event"
+    ],
+    "category": "IgdrasilEngine"
+  },
+  {
+    "title": "Engine.Tilemap",
+    "url": "/api/igdrasilengine/engine.html#tilemap",
+    "type": "api-member",
+    "project": "IgdrasilEngine",
+    "content": "--- Content: public class Tile \u003E Language: C# \u003E \u003E \u041A\u043B\u0430\u0441\u0441, \u043F\u0440\u0435\u0434\u0441\u0442\u0430\u0432\u043B\u044F\u044E\u0449\u0438\u0439 \u0442\u0430\u0439\u043B \u0432 \u0442\u0430\u0439\u043B\u043C\u0430\u043F\u0435. \u003E public class Tilemap\u0026lt;T\u0026gt; : RenderData, IAssetSerializable \u003E Language: C# \u003E \u003E \u0422\u0430\u0439\u043B\u043C\u0430\u043F. \u003E \u003E Type Parameters: \u003E - T: \u0422\u0438\u043F \u0442\u0430\u0439\u043B\u0430. \u003E public class TilemapDrawable\u0026lt;T\u0026gt; : IDrawable \u003E Language: C# \u003E \u003E \u041A\u043B\u0430\u0441\u0441, \u043F...",
+    "tags": [
+      "method",
+      "property",
+      "field",
+      "event"
+    ],
+    "category": "IgdrasilEngine"
+  },
+  {
+    "title": "Engine.Utils",
+    "url": "/api/igdrasilengine/engine.html#utils",
+    "type": "api-member",
+    "project": "IgdrasilEngine",
+    "content": "Namespaces: Listenable Structures BVH --- Content: public static class AtlasGenerator \u003E Language: C# \u003E \u003E \u0413\u0435\u043D\u0435\u0440\u0430\u0442\u043E\u0440 \u0430\u0442\u043B\u0430\u0441\u043E\u0432 \u0442\u0435\u043A\u0441\u0442\u0443\u0440 \u003E",
+    "tags": [
+      "method",
+      "property",
+      "field",
+      "event"
+    ],
+    "category": "IgdrasilEngine"
+  },
+  {
+    "title": "Engine.IO",
+    "url": "/api/igdrasilengine/engine.html#io",
+    "type": "api-member",
+    "project": "IgdrasilEngine",
+    "content": "Namespaces: Codecs",
+    "tags": [
+      "method",
+      "property",
+      "field",
+      "event"
+    ],
+    "category": "IgdrasilEngine"
+  },
+  {
+    "title": "Engine.Runtime",
+    "url": "/api/igdrasilengine/engine.html#runtime",
+    "type": "api-member",
+    "project": "IgdrasilEngine",
+    "content": "Namespaces: Loading ResourceManagement Task",
+    "tags": [
+      "method",
+      "property",
+      "field",
+      "event"
+    ],
+    "category": "IgdrasilEngine"
+  },
+  {
+    "title": "IgdrasilEngine",
+    "url": "/IgdrasilInput/api/igdrasilengine/index.html",
+    "type": "api",
+    "project": "IgdrasilEngine",
+    "content": "Namespace IgdrasilEngine",
+    "tags": [
+      "namespace"
+    ],
+    "category": "Namespaces"
+  },
+  {
+    "title": "Engine",
+    "url": "/api/igdrasilengine/engine.html",
+    "type": "api",
+    "project": "IgdrasilEngine",
+    "content": "Namespaces: Input",
+    "tags": [
+      "class",
+      "interface",
+      "struct",
+      "enum"
+    ],
+    "category": "IgdrasilEngine"
+  },
+  {
+    "title": "Engine.Input",
+    "url": "/api/igdrasilengine/engine.html#input",
+    "type": "api-member",
+    "project": "IgdrasilEngine",
+    "content": "Namespaces: Actions Interactions Bindings --- Content: public interface IAction \u003E Language: C# \u003E public interface IAction\u0026lt;T\u0026gt; : IAction \u003E Language: C# \u003E public interface IActionInteraction\u0026lt;T\u0026gt; \u003E Language: C# \u003E public interface IBinding\u0026lt;T\u0026gt; \u003E Language: C# \u003E public class InputSystem : G...",
+    "tags": [
+      "method",
+      "property",
+      "field",
+      "event"
+    ],
+    "category": "IgdrasilEngine"
+  },
+  {
+    "title": "IgdrasilEngine",
+    "url": "/IgdrasilSceneSystem/api/igdrasilengine/index.html",
+    "type": "api",
+    "project": "IgdrasilEngine",
+    "content": "Namespace IgdrasilEngine",
+    "tags": [
+      "namespace"
+    ],
+    "category": "Namespaces"
+  },
+  {
+    "title": "Engine",
+    "url": "/api/igdrasilengine/engine.html",
+    "type": "api",
+    "project": "IgdrasilEngine",
+    "content": "Namespaces: Exceptions SceneManagement Render Scripting",
+    "tags": [
+      "class",
+      "interface",
+      "struct",
+      "enum"
+    ],
+    "category": "IgdrasilEngine"
+  },
+  {
+    "title": "Engine.Exceptions",
+    "url": "/api/igdrasilengine/engine.html#exceptions",
+    "type": "api-member",
+    "project": "IgdrasilEngine",
+    "content": "--- Content: public class SceneLoadingException : IgdrasilException(message) \u003E Language: C# \u003E \u003E \u0418\u0441\u043A\u043B\u044E\u0447\u0435\u043D\u0438\u0435, \u0432\u043E\u0437\u043D\u0438\u043A\u0430\u044E\u0449\u0435\u0435 \u043F\u0440\u0438 \u043E\u0448\u0438\u0431\u043A\u0435 \u0437\u0430\u0433\u0440\u0443\u0437\u043A\u0438 \u0441\u0446\u0435\u043D\u044B \u003E \u003E Parameters: \u003E - message: \u0421\u043E\u043E\u0431\u0449\u0435\u043D\u0438\u0435 \u043E\u0431 \u043E\u0448\u0438\u0431\u043A\u0435 \u003E",
+    "tags": [
+      "method",
+      "property",
+      "field",
+      "event"
+    ],
+    "category": "IgdrasilEngine"
+  },
+  {
+    "title": "Engine.SceneManagement",
+    "url": "/api/igdrasilengine/engine.html#scenemanagement",
+    "type": "api-member",
+    "project": "IgdrasilEngine",
+    "content": "--- Content: public class Collection : GameObject \u003E Language: C# \u003E \u003E \u041A\u043E\u043B\u043B\u0435\u043A\u0446\u0438\u044F \u0441\u0443\u0449\u043D\u043E\u0441\u0442\u0435\u0439 \u0438 \u0441\u0438\u0441\u0442\u0435\u043C ECS \u0434\u043B\u044F \u0443\u043F\u0440\u0430\u0432\u043B\u0435\u043D\u0438\u044F \u0438\u043C\u0438 \u0432 \u0441\u0446\u0435\u043D\u0435 \u003E public class Scene : Collection \u003E Language: C# \u003E \u003E \u0421\u0446\u0435\u043D\u0430, \u0441\u043E\u0434\u0435\u0440\u0436\u0430\u0449\u0430\u044F \u0441\u0443\u0449\u043D\u043E\u0441\u0442\u0438 \u0438 \u0443\u043F\u0440\u0430\u0432\u043B\u044F\u044E\u0449\u0430\u044F \u0438\u0445 \u0440\u0435\u043D\u0434\u0435\u0440\u0438\u043D\u0433\u043E\u043C \u003E public class SceneLoadingStatus \u003E Language: C# \u003E \u003E \u0421\u0442\u0430\u0442\u0443\u0441 \u0437\u0430...",
+    "tags": [
+      "method",
+      "property",
+      "field",
+      "event"
+    ],
+    "category": "IgdrasilEngine"
+  },
+  {
+    "title": "Engine.Render",
+    "url": "/api/igdrasilengine/engine.html#render",
+    "type": "api-member",
+    "project": "IgdrasilEngine",
+    "content": "Namespaces: Components Systems",
+    "tags": [
+      "method",
+      "property",
+      "field",
+      "event"
+    ],
+    "category": "IgdrasilEngine"
+  },
+  {
+    "title": "Engine.Scripting",
+    "url": "/api/igdrasilengine/engine.html#scripting",
+    "type": "api-member",
+    "project": "IgdrasilEngine",
+    "content": "Namespaces: Modules",
+    "tags": [
+      "method",
+      "property",
+      "field",
+      "event"
+    ],
+    "category": "IgdrasilEngine"
+  },
+  {
+    "title": "IgdrasilEngine",
+    "url": "/IgdrasilCompute/api/igdrasilengine/index.html",
+    "type": "api",
+    "project": "IgdrasilEngine",
+    "content": "Namespace IgdrasilEngine",
+    "tags": [
+      "namespace"
+    ],
+    "category": "Namespaces"
+  },
+  {
+    "title": "Engine",
+    "url": "/api/igdrasilengine/engine.html",
+    "type": "api",
+    "project": "IgdrasilEngine",
+    "content": "Namespaces: Exceptions Utils Runtime",
+    "tags": [
+      "class",
+      "interface",
+      "struct",
+      "enum"
+    ],
+    "category": "IgdrasilEngine"
+  },
+  {
+    "title": "Engine.Exceptions",
+    "url": "/api/igdrasilengine/engine.html#exceptions",
+    "type": "api-member",
+    "project": "IgdrasilEngine",
+    "content": "--- Content: public class ComputeException : IgdrasilException \u003E Language: C# \u003E \u003E \u0418\u0441\u043A\u043B\u044E\u0447\u0435\u043D\u0438\u0435 \u0434\u043B\u044F \u043E\u0448\u0438\u0431\u043E\u043A OpenCL \u0432\u044B\u0447\u0438\u0441\u043B\u0435\u043D\u0438\u0439 \u003E",
+    "tags": [
+      "method",
+      "property",
+      "field",
+      "event"
+    ],
+    "category": "IgdrasilEngine"
+  },
+  {
+    "title": "Engine.Utils",
+    "url": "/api/igdrasilengine/engine.html#utils",
+    "type": "api-member",
+    "project": "IgdrasilEngine",
+    "content": "Namespaces: Structures --- Content: public class Resources \u003E Language: C# \u003E",
+    "tags": [
+      "method",
+      "property",
+      "field",
+      "event"
+    ],
+    "category": "IgdrasilEngine"
+  },
+  {
+    "title": "Engine.Runtime",
+    "url": "/api/igdrasilengine/engine.html#runtime",
+    "type": "api-member",
+    "project": "IgdrasilEngine",
+    "content": "Namespaces: GPU",
+    "tags": [
+      "method",
+      "property",
+      "field",
+      "event"
+    ],
+    "category": "IgdrasilEngine"
+  },
+  {
+    "title": "IgdrasilEngine",
+    "url": "/IgdrasilProjectBuilder/api/igdrasilengine/index.html",
+    "type": "api",
+    "project": "IgdrasilEngine",
+    "content": "Namespace IgdrasilEngine",
+    "tags": [
+      "namespace"
+    ],
+    "category": "Namespaces"
+  },
+  {
+    "title": "Editor",
+    "url": "/api/igdrasilengine/editor.html",
+    "type": "api",
+    "project": "IgdrasilEngine",
+    "content": "Namespaces: Tools",
+    "tags": [
+      "class",
+      "interface",
+      "struct",
+      "enum"
+    ],
+    "category": "IgdrasilEngine"
+  },
+  {
+    "title": "Editor.Tools",
+    "url": "/api/igdrasilengine/editor.html#tools",
+    "type": "api-member",
+    "project": "IgdrasilEngine",
+    "content": "--- Content: public static class AssetManager \u003E Language: C# \u003E public class AssetPacker \u003E Language: C# \u003E public interface IAssetExtractor \u003E Language: C# \u003E public interface IPackingRule \u003E Language: C# \u003E",
+    "tags": [
+      "method",
+      "property",
+      "field",
+      "event"
+    ],
+    "category": "IgdrasilEngine"
+  },
+  {
+    "title": "IgdrasilEngine",
+    "url": "/IgdrasilOpenGL/api/igdrasilengine/index.html",
+    "type": "api",
+    "project": "IgdrasilEngine",
+    "content": "Namespace IgdrasilEngine",
+    "tags": [
+      "namespace"
+    ],
+    "category": "Namespaces"
+  },
+  {
+    "title": "Engine",
+    "url": "/api/igdrasilengine/engine.html",
+    "type": "api",
+    "project": "IgdrasilEngine",
+    "content": "Namespaces: Graphics",
+    "tags": [
+      "class",
+      "interface",
+      "struct",
+      "enum"
+    ],
+    "category": "IgdrasilEngine"
+  },
+  {
+    "title": "Engine.Graphics",
+    "url": "/api/igdrasilengine/engine.html#graphics",
+    "type": "api-member",
+    "project": "IgdrasilEngine",
+    "content": "Namespaces: Core --- Content: public static class OpenGL \u003E Language: C# \u003E \u003E \u0418\u043D\u0438\u0446\u0438\u0430\u043B\u0438\u0437\u0430\u0446\u0438\u044F OpenGL \u0433\u0440\u0430\u0444\u0438\u0447\u0435\u0441\u043A\u043E\u0433\u043E \u0434\u0432\u0438\u0436\u043A\u0430 \u003E",
+    "tags": [
+      "method",
+      "property",
+      "field",
+      "event"
+    ],
+    "category": "IgdrasilEngine"
+  },
+  {
+    "title": "IgdrasilEngine",
+    "url": "/IgdrasilScripting/api/igdrasilengine/index.html",
+    "type": "api",
+    "project": "IgdrasilEngine",
+    "content": "Namespace IgdrasilEngine",
+    "tags": [
+      "namespace"
+    ],
+    "category": "Namespaces"
+  },
+  {
+    "title": "Engine",
+    "url": "/api/igdrasilengine/engine.html",
+    "type": "api",
+    "project": "IgdrasilEngine",
+    "content": "Namespaces: Scripting",
+    "tags": [
+      "class",
+      "interface",
+      "struct",
+      "enum"
+    ],
+    "category": "IgdrasilEngine"
+  },
+  {
+    "title": "Engine.Scripting",
+    "url": "/api/igdrasilengine/engine.html#scripting",
+    "type": "api-member",
+    "project": "IgdrasilEngine",
+    "content": "Namespaces: Contexts Exceptions Modules --- Content: public class DefaultTypeValidator : ITypeValidator \u003E Language: C# \u003E \u003E \u0420\u0435\u0430\u043B\u0438\u0437\u0430\u0446\u0438\u044F \u0432\u0430\u043B\u0438\u0434\u0430\u0442\u043E\u0440\u0430 \u0442\u0438\u043F\u043E\u0432 \u043F\u043E \u0443\u043C\u043E\u043B\u0447\u0430\u043D\u0438\u044E \u003E public interface IModuleInterface \u003E Language: C# \u003E \u003E \u0418\u043D\u0442\u0435\u0440\u0444\u0435\u0439\u0441 \u043C\u043E\u0434\u0443\u043B\u044F \u0441\u043A\u0440\u0438\u043F\u0442\u0438\u043D\u0433\u0430 \u003E public interface IScript\u0026lt;TResult\u0026gt; : IDisposab...",
+    "tags": [
+      "method",
+      "property",
+      "field",
+      "event"
+    ],
+    "category": "IgdrasilEngine"
+  },
+  {
+    "title": "IgdrasilEngine",
+    "url": "/IgdrasilLuaScripting/api/igdrasilengine/index.html",
+    "type": "api",
+    "project": "IgdrasilEngine",
+    "content": "Namespace IgdrasilEngine",
+    "tags": [
+      "namespace"
+    ],
+    "category": "Namespaces"
+  },
+  {
+    "title": "Engine",
+    "url": "/api/igdrasilengine/engine.html",
+    "type": "api",
+    "project": "IgdrasilEngine",
+    "content": "Namespaces: Scripting",
+    "tags": [
+      "class",
+      "interface",
+      "struct",
+      "enum"
+    ],
+    "category": "IgdrasilEngine"
+  },
+  {
+    "title": "Engine.Scripting",
+    "url": "/api/igdrasilengine/engine.html#scripting",
+    "type": "api-member",
+    "project": "IgdrasilEngine",
+    "content": "Namespaces: Lua",
+    "tags": [
+      "method",
+      "property",
+      "field",
+      "event"
+    ],
+    "category": "IgdrasilEngine"
+  },
+  {
+    "title": "IgdrasilEngine",
+    "url": "/IgdrasilJavaScriptScripting/api/igdrasilengine/index.html",
+    "type": "api",
+    "project": "IgdrasilEngine",
+    "content": "Namespace IgdrasilEngine",
+    "tags": [
+      "namespace"
+    ],
+    "category": "Namespaces"
+  },
+  {
+    "title": "Engine",
+    "url": "/api/igdrasilengine/engine.html",
+    "type": "api",
+    "project": "IgdrasilEngine",
+    "content": "Namespaces: Scripting",
+    "tags": [
+      "class",
+      "interface",
+      "struct",
+      "enum"
+    ],
+    "category": "IgdrasilEngine"
+  },
+  {
+    "title": "Engine.Scripting",
+    "url": "/api/igdrasilengine/engine.html#scripting",
+    "type": "api-member",
+    "project": "IgdrasilEngine",
+    "content": "Namespaces: JS",
+    "tags": [
+      "method",
+      "property",
+      "field",
+      "event"
+    ],
+    "category": "IgdrasilEngine"
+  },
+  {
+    "title": "IgdrasilEngine",
+    "url": "/IgdrasilAudio/api/igdrasilengine/index.html",
+    "type": "api",
+    "project": "IgdrasilEngine",
+    "content": "Namespace IgdrasilEngine",
+    "tags": [
+      "namespace"
+    ],
+    "category": "Namespaces"
+  },
+  {
+    "title": "Engine",
+    "url": "/api/igdrasilengine/engine.html",
+    "type": "api",
+    "project": "IgdrasilEngine",
+    "content": "Namespaces: Audio IO",
+    "tags": [
+      "class",
+      "interface",
+      "struct",
+      "enum"
+    ],
+    "category": "IgdrasilEngine"
+  },
+  {
+    "title": "Engine.Audio",
+    "url": "/api/igdrasilengine/engine.html#audio",
+    "type": "api-member",
+    "project": "IgdrasilEngine",
+    "content": "Namespaces: Components Systems --- Content: public class AudioClip : IPointable\u0026lt;uint\u0026gt;, IDisposable \u003E Language: C# \u003E public struct AudioFile \u003E Language: C# \u003E public class AudioMixer : GameObject \u003E Language: C# \u003E",
+    "tags": [
+      "method",
+      "property",
+      "field",
+      "event"
+    ],
+    "category": "IgdrasilEngine"
+  },
+  {
+    "title": "Engine.IO",
+    "url": "/api/igdrasilengine/engine.html#io",
+    "type": "api-member",
+    "project": "IgdrasilEngine",
+    "content": "Namespaces: Assets Audio",
+    "tags": [
+      "method",
+      "property",
+      "field",
+      "event"
+    ],
+    "category": "IgdrasilEngine"
+  },
+  {
+    "title": "IgdrasilLogging",
+    "url": "/IgdrasilLogging/api/igdrasillogging/index.html",
+    "type": "api",
+    "project": "IgdrasilLogging",
+    "content": "Namespace IgdrasilLogging",
+    "tags": [
+      "namespace"
+    ],
+    "category": "Namespaces"
+  },
+  {
+    "title": "Engine",
+    "url": "/api/igdrasillogging/engine.html",
+    "type": "api",
+    "project": "IgdrasilLogging",
+    "content": "Namespaces: Logging",
+    "tags": [
+      "class",
+      "interface",
+      "struct",
+      "enum"
+    ],
+    "category": "IgdrasilLogging"
+  },
+  {
+    "title": "Engine.Logging",
+    "url": "/api/igdrasillogging/engine.html#logging",
+    "type": "api-member",
+    "project": "IgdrasilLogging",
+    "content": "Namespaces: Loggers --- Content: public interface ILogger \u003E Language: C# \u003E \u003E \u0418\u043D\u0442\u0435\u0440\u0444\u0435\u0439\u0441 \u043B\u043E\u0433\u0433\u0435\u0440\u0430 \u003E \u003E public static class LoggerFactory \u003E Language: C# \u003E \u003E \u0424\u0430\u0431\u0440\u0438\u043A\u0430 \u0434\u043B\u044F \u0441\u043E\u0437\u0434\u0430\u043D\u0438\u044F \u043B\u043E\u0433\u0433\u0435\u0440\u043E\u0432 \u003E \u003E public class LoggingContext : IDisposable \u003E Language: C# \u003E \u003E \u041A\u043E\u043D\u0442\u0435\u043A\u0441\u0442 \u043B\u043E\u0433\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u044F \u003E \u003E public enum LoggingLevel \u003E L...",
+    "tags": [
+      "method",
+      "property",
+      "field",
+      "event"
+    ],
+    "category": "IgdrasilLogging"
+  },
+  {
+    "title": "SynLex",
+    "url": "/SynLex/api/synlex/index.html",
+    "type": "api",
+    "project": "SynLex",
+    "content": "Namespace SynLex",
+    "tags": [
+      "namespace"
+    ],
+    "category": "Namespaces"
+  },
+  {
+    "title": "TextPosition",
+    "url": "/api/synlex/textposition.html",
+    "type": "api",
+    "project": "SynLex",
+    "content": "public int Line { get; } \u003E Language: C# \u003E \u003E Return Value: line \u003E public int Column { get; } \u003E Language: C# \u003E \u003E Return Value: column \u003E public override string ToString() \u003E Language: C# \u003E",
+    "tags": [
+      "class",
+      "interface",
+      "struct",
+      "enum"
+    ],
+    "category": "SynLex"
+  },
+  {
+    "title": "Token",
+    "url": "/api/synlex/token.html",
+    "type": "api",
+    "project": "SynLex",
+    "content": "public string Content { get; } \u003E Language: C# \u003E \u003E Return Value: content \u003E public int Type { get; } \u003E Language: C# \u003E \u003E Return Value: type \u003E public TextPosition Position { get; } \u003E Language: C# \u003E \u003E Return Value: position \u003E public override string ToString() \u003E Language: C# \u003E",
+    "tags": [
+      "class",
+      "interface",
+      "struct",
+      "enum"
+    ],
+    "category": "SynLex"
+  },
+  {
+    "title": "Compilation",
+    "url": "/api/synlex/compilation.html",
+    "type": "api",
+    "project": "SynLex",
+    "content": "Namespaces: Rules --- Content: public class EvaluatorContext \u003E Language: C# \u003E \u003E \u041A\u043E\u043D\u0442\u0435\u043A\u0441\u0442 \u043A\u043E\u043C\u043F\u0438\u043B\u044F\u0446\u0438\u0438 \u0441 \u0434\u043E\u0441\u0442\u0443\u043F\u043E\u043C \u043A \u0441\u043A\u043E\u043C\u043F\u0438\u043B\u0438\u0440\u043E\u0432\u0430\u043D\u043D\u044B\u043C \u043F\u043E\u0434\u0443\u0437\u043B\u0430\u043C \u003E public class Evaluator\u0026lt;T\u0026gt; \u003E Language: C# \u003E \u003E \u041A\u043E\u043C\u043F\u0438\u043B\u044F\u0442\u043E\u0440 \u043F\u0440\u0435\u043E\u0431\u0440\u0430\u0437\u0443\u0435\u0442 AST \u0432 \u0440\u0435\u0437\u0443\u043B\u044C\u0442\u0438\u0440\u0443\u044E\u0449\u0438\u0439 \u043E\u0431\u044A\u0435\u043A\u0442 \u0442\u0438\u043F\u0430 T \u003E \u043F\u0443\u0442\u0435\u043C \u043F\u0440\u0438\u043C\u0435\u043D\u0435\u043D\u0438\u044F \u043F\u0440\u0430\u0432\u0438\u043B \u043A\u043E\u043C\u043F\u0438\u043B\u044F\u0446\u0438\u0438 \u043A \u043A\u0430\u0436\u0434\u043E\u043C\u0443 \u0443\u0437\u043B\u0443 \u0434\u0435\u0440\u0435\u0432\u0430. \u003E \u041F\u043E\u0434\u0434\u0435\u0440\u0436\u0438\u0432\u0430\u0435\u0442 \u0432\u0430\u0440\u0438\u0430\u0442\u0438\u0432\u043D\u0443\u044E \u043A\u043E\u043C\u043F\u0438\u043B\u044F\u0446\u0438\u044E - \u043C\u043E\u0436\u0435\u0442 \u0432\u0435\u0440\u043D\u0443\u0442\u044C \u043C\u043D\u043E\u0436\u0435\u0441\u0442\u0432\u043E \u0440\u0435\u0437\u0443\u043B\u044C\u0442\u0430\u0442\u043E\u0432. \u003E public readonly struct CompilerRuleResult\u0026lt;T\u0026gt; \u003E Language: C# \u003E \u003E \u0420\u0435\u0437\u0443\u043B\u044C\u0442\u0430\u0442 \u043F\u0440\u0438\u043C\u0435\u043D\u0435\u043D\u0438\u044F \u043F\u0440\u0430\u0432\u0438\u043B\u0430 \u043A\u043E\u043C\u043F\u0438\u043B\u044F\u0446\u0438\u0438. ...",
+    "tags": [
+      "class",
+      "interface",
+      "struct",
+      "enum"
+    ],
+    "category": "SynLex"
+  },
+  {
+    "title": "Compilation.EvaluatorContext",
+    "url": "/api/synlex/compilation.html#evaluatorcontext",
+    "type": "api-member",
+    "project": "SynLex",
+    "content": "public Dictionary\u0026lt;string, object\u0026gt; UserContext { get; } \u003E Language: C# \u003E \u003E Return Value: [] \u003E \u003E \u041F\u043E\u043B\u044C\u0437\u043E\u0432\u0430\u0442\u0435\u043B\u044C\u0441\u043A\u0438\u0439 \u043A\u043E\u043D\u0442\u0435\u043A\u0441\u0442 \u0434\u043B\u044F \u0445\u0440\u0430\u043D\u0435\u043D\u0438\u044F \u0434\u043E\u043F\u043E\u043B\u043D\u0438\u0442\u0435\u043B\u044C\u043D\u044B\u0445 \u0434\u0430\u043D\u043D\u044B\u0445 \u003E \u003E public List\u0026lt;object\u0026gt; CompiledBranches { get; set; } \u003E Language: C# \u003E \u003E Return Value: [] \u003E \u003E \u0421\u043F\u0438\u0441\u043E\u043A \u0441\u043A\u043E\u043C\u043F\u0438\u043B\u0438\u0440\u043E\u0432\u0430\u043D\u043D\u044B\u0445 \u0434\u043E\u0447\u0435\u0440\u043D\u0438\u0445 \u0443\u0437\u043B\u043E...",
+    "tags": [
+      "method",
+      "property",
+      "field",
+      "event"
+    ],
+    "category": "SynLex"
+  },
+  {
+    "title": "Compilation.Evaluator\u003CT\u003E",
+    "url": "/api/synlex/compilation.html#evaluator_t_",
+    "type": "api-member",
+    "project": "SynLex",
+    "content": "public bool EnableVariants { get; set; } \u003E Language: C# \u003E \u003E Return Value: false \u003E \u003E \u0412\u043A\u043B\u044E\u0447\u0435\u043D\u0438\u0435 \u0432\u0430\u0440\u0438\u0430\u0442\u0438\u0432\u043D\u043E\u0439 \u043A\u043E\u043C\u043F\u0438\u043B\u044F\u0446\u0438\u0438 (\u0432\u043E\u0437\u0432\u0440\u0430\u0442 \u0432\u0441\u0435\u0445 \u0432\u043E\u0437\u043C\u043E\u0436\u043D\u044B\u0445 \u0440\u0435\u0437\u0443\u043B\u044C\u0442\u0430\u0442\u043E\u0432) \u003E \u003E public Evaluator\u0026lt;T\u0026gt; AddRule(IEvaluatorRule\u0026lt;T\u0026gt; rule) \u003E Language: C# \u003E public Evaluator\u0026lt;T\u0026gt; SetDefaultValue(Func\u0026lt;T\u0026gt; defau...",
+    "tags": [
+      "method",
+      "property",
+      "field",
+      "event"
+    ],
+    "category": "SynLex"
+  },
+  {
+    "title": "Compilation.CompilerRuleResult\u003CT\u003E",
+    "url": "/api/synlex/compilation.html#compilerruleresult_t_",
+    "type": "api-member",
+    "project": "SynLex",
+    "content": "public bool Success { get; } \u003E Language: C# \u003E \u003E Return Value: success \u003E public T Value { get; } \u003E Language: C# \u003E \u003E Return Value: value \u003E public static CompilerRuleResult\u0026lt;T\u0026gt; Fail \u003E Language: C# \u003E",
+    "tags": [
+      "method",
+      "property",
+      "field",
+      "event"
+    ],
+    "category": "SynLex"
+  },
+  {
+    "title": "Compilation.IEvaluatorRule\u003CT\u003E",
+    "url": "/api/synlex/compilation.html#ievaluatorrule_t_",
+    "type": "api-member",
+    "project": "SynLex",
+    "content": "public CompilerRuleResult\u0026lt;T\u0026gt; Apply(AbstractSyntaxTree ast, EvaluatorContext context) \u003E Language: C# \u003E \u003E \u041F\u0440\u0438\u043C\u0435\u043D\u044F\u0435\u0442 \u043F\u0440\u0430\u0432\u0438\u043B\u043E \u043A\u043E\u043C\u043F\u0438\u043B\u044F\u0446\u0438\u0438 \u043A \u0443\u0437\u043B\u0443 AST. \u003E \u003E \u0421\u043A\u043E\u043C\u043F\u0438\u043B\u0438\u0440\u043E\u0432\u0430\u043D\u043D\u044B\u0435 \u043F\u043E\u0434\u0443\u0437\u043B\u044B \u0434\u043E\u0441\u0442\u0443\u043F\u043D\u044B \u0447\u0435\u0440\u0435\u0437 context.CompiledBranches \u003E \u003E \u003E Parameters: \u003E - ast: \u0423\u0437\u0435\u043B AST \u0434\u043B\u044F \u043E\u0431\u0440\u0430\u0431\u043E\u0442\u043A\u0438 \u003E - context: \u041A\u043E\u043D\u0442\u0435\u043A\u0441\u0442 \u043A\u043E\u043C\u043F\u0438\u043B\u044F\u0446...",
+    "tags": [
+      "method",
+      "property",
+      "field",
+      "event"
+    ],
+    "category": "SynLex"
+  },
+  {
+    "title": "Compilation.Rules",
+    "url": "/api/synlex/compilation.html#rules",
+    "type": "api-member",
+    "project": "SynLex",
+    "content": "--- Content: public class SimpleEvaluatorRule\u0026lt;T\u0026gt; : IEvaluatorRule\u0026lt;T\u0026gt; \u003E Language: C# \u003E \u003E \u041F\u0440\u043E\u0441\u0442\u043E\u0435 \u043F\u0440\u0430\u0432\u0438\u043B\u043E \u043A\u043E\u043C\u043F\u0438\u043B\u044F\u0446\u0438\u0438, \u043A\u043E\u0442\u043E\u0440\u043E\u0435 \u043F\u0440\u0435\u043E\u0431\u0440\u0430\u0437\u0443\u0435\u0442 \u0442\u043E\u043A\u0435\u043D\u044B \u043E\u043F\u0440\u0435\u0434\u0435\u043B\u0435\u043D\u043D\u043E\u0433\u043E \u0442\u0438\u043F\u0430 \u003E \u041F\u0440\u0435\u043E\u0431\u0440\u0430\u0437\u0443\u0435\u0442 \u043B\u0438\u0441\u0442\u043E\u0432\u044B\u0435 \u0443\u0437\u043B\u044B AST (\u0431\u0435\u0437 \u043F\u043E\u0434\u0432\u044B\u0440\u0430\u0436\u0435\u043D\u0438\u0439) \u0432 \u0440\u0435\u0437\u0443\u043B\u044C\u0442\u0438\u0440\u0443\u044E\u0449\u0438\u0435 \u0437\u043D\u0430\u0447\u0435\u043D\u0438\u044F \u003E \u003E Type Parameters: \u003E - T: \u0422\u0438\u043F \u0440\u0435\u0437\u0443\u043B\u044C\u0442\u0430\u0442\u0430 \u043A\u043E\u043C\u043F\u0438\u043B...",
+    "tags": [
+      "method",
+      "property",
+      "field",
+      "event"
+    ],
+    "category": "SynLex"
+  },
+  {
+    "title": "LexicalAnalysis",
+    "url": "/api/synlex/lexicalanalysis.html",
+    "type": "api",
+    "project": "SynLex",
+    "content": "Namespaces: Rules --- Content: public interface ILexerRule \u003E Language: C# \u003E \u003E \u041F\u0440\u0430\u0432\u0438\u043B\u043E \u043B\u0435\u043A\u0441\u0438\u0447\u0435\u0441\u043A\u043E\u0433\u043E \u0430\u043D\u0430\u043B\u0438\u0437\u0430 \u0434\u043B\u044F \u0440\u0430\u0441\u043F\u043E\u0437\u043D\u0430\u0432\u0430\u043D\u0438\u044F \u0442\u043E\u043A\u0435\u043D\u043E\u0432. \u003E public class Lexer \u003E Language: C# \u003E \u003E \u041B\u0435\u043A\u0441\u0435\u0440 - \u043F\u0440\u0435\u043E\u0431\u0440\u0430\u0437\u0443\u0435\u0442 \u0438\u0441\u0445\u043E\u0434\u043D\u044B\u0439 \u0442\u0435\u043A\u0441\u0442 \u0432 \u043F\u043E\u0441\u043B\u0435\u0434\u043E\u0432\u0430\u0442\u0435\u043B\u044C\u043D\u043E\u0441\u0442\u044C \u0442\u043E\u043A\u0435\u043D\u043E\u0432. \u003E \u041F\u0440\u0438\u043C\u0435\u043D\u044F\u0435\u0442 \u043F\u0440\u0430\u0432\u0438\u043B\u0430 \u043B\u0435\u043A\u0441\u0438\u0447\u0435\u0441\u043A\u043E\u0433\u043E \u0430\u043D\u0430\u043B\u0438\u0437\u0430 \u0432 \u043F\u043E\u0440\u044F\u0434\u043A\u0435 \u0434\u043E\u0431\u0430\u0432\u043B\u0435\u043D\u0438\u044F. \u003E",
+    "tags": [
+      "class",
+      "interface",
+      "struct",
+      "enum"
+    ],
+    "category": "SynLex"
+  },
+  {
+    "title": "LexicalAnalysis.ILexerRule",
+    "url": "/api/synlex/lexicalanalysis.html#ilexerrule",
+    "type": "api-member",
+    "project": "SynLex",
+    "content": "public (int shift, Token? token) Apply(string content, int position, Dictionary\u0026lt;string, object\u0026gt; context) \u003E Language: C# \u003E \u003E \u041F\u0440\u0438\u043C\u0435\u043D\u044F\u0435\u0442 \u043F\u0440\u0430\u0432\u0438\u043B\u043E \u043A \u0438\u0441\u0445\u043E\u0434\u043D\u043E\u043C\u0443 \u0442\u0435\u043A\u0441\u0442\u0443 \u0432 \u0443\u043A\u0430\u0437\u0430\u043D\u043D\u043E\u0439 \u043F\u043E\u0437\u0438\u0446\u0438\u0438. \u003E \u003E \u003E Parameters: \u003E - content: \u0418\u0441\u0445\u043E\u0434\u043D\u044B\u0439 \u0442\u0435\u043A\u0441\u0442 \u0434\u043B\u044F \u0430\u043D\u0430\u043B\u0438\u0437\u0430 \u003E - position: \u0422\u0435\u043A\u0443\u0449\u0430\u044F \u043F\u043E\u0437\u0438\u0446\u0438\u044F \u0432 \u0442\u0435\u043A\u0441\u0442\u0435 \u003E - context: \u041A\u043E...",
+    "tags": [
+      "method",
+      "property",
+      "field",
+      "event"
+    ],
+    "category": "SynLex"
+  },
+  {
+    "title": "LexicalAnalysis.Lexer",
+    "url": "/api/synlex/lexicalanalysis.html#lexer",
+    "type": "api-member",
+    "project": "SynLex",
+    "content": "public Lexer AddRule(ILexerRule rule) \u003E Language: C# \u003E public LexerResult Analyze(string content) \u003E Language: C# \u003E \u003E \u0410\u043D\u0430\u043B\u0438\u0437\u0438\u0440\u0443\u0435\u0442 \u0442\u0435\u043A\u0441\u0442 \u0438 \u043F\u0440\u0435\u043E\u0431\u0440\u0430\u0437\u0443\u0435\u0442 \u0435\u0433\u043E \u0432 \u043F\u043E\u0441\u043B\u0435\u0434\u043E\u0432\u0430\u0442\u0435\u043B\u044C\u043D\u043E\u0441\u0442\u044C \u0442\u043E\u043A\u0435\u043D\u043E\u0432 \u003E \u003E",
+    "tags": [
+      "method",
+      "property",
+      "field",
+      "event"
+    ],
+    "category": "SynLex"
+  },
+  {
+    "title": "LexicalAnalysis.Rules",
+    "url": "/api/synlex/lexicalanalysis.html#rules",
+    "type": "api-member",
+    "project": "SynLex",
+    "content": "--- Content: public static class CommonLexerRules \u003E Language: C# \u003E \u003E \u041A\u043E\u043B\u043B\u0435\u043A\u0446\u0438\u044F \u0431\u0430\u0437\u043E\u0432\u044B\u0445 \u043F\u0440\u0430\u0432\u0438\u043B \u043B\u0435\u043A\u0441\u0435\u0440\u0430 \u0434\u043B\u044F \u0440\u0430\u0441\u043F\u0440\u043E\u0441\u0442\u0440\u0430\u043D\u0451\u043D\u043D\u044B\u0445 \u0442\u043E\u043A\u0435\u043D\u043E\u0432 \u003E public class RegexLexerRule : ILexerRule \u003E Language: C# \u003E \u003E \u041F\u0440\u0430\u0432\u0438\u043B\u043E \u043B\u0435\u043A\u0441\u0435\u0440\u0430 \u0434\u043B\u044F \u0440\u0435\u0433\u0443\u043B\u044F\u0440\u043D\u044B\u0445 \u0432\u044B\u0440\u0430\u0436\u0435\u043D\u0438\u0439 \u003E \u041F\u0440\u0438\u043C\u0435\u043D\u044F\u0435\u0442 \u0440\u0435\u0433\u0443\u043B\u044F\u0440\u043D\u043E\u0435 \u0432\u044B\u0440\u0430\u0436\u0435\u043D\u0438\u0435 \u043A \u043D\u0430\u0447\u0430\u043B\u0443 \u0442\u0435\u043A\u0441\u0442\u0430 \u0441 \u0442\u0435\u043A\u0443\u0449\u0435\u0439 \u043F\u043E\u0437\u0438\u0446\u0438\u0438...",
+    "tags": [
+      "method",
+      "property",
+      "field",
+      "event"
+    ],
+    "category": "SynLex"
+  },
+  {
+    "title": "SyntacticAnalysis",
+    "url": "/api/synlex/syntacticanalysis.html",
+    "type": "api",
+    "project": "SynLex",
+    "content": "Namespaces: Rules --- Content: public class AbstractSyntaxTree \u003E Language: C# \u003E \u003E \u0423\u0437\u0435\u043B \u0430\u0431\u0441\u0442\u0440\u0430\u043A\u0442\u043D\u043E\u0433\u043E \u0441\u0438\u043D\u0442\u0430\u043A\u0441\u0438\u0447\u0435\u0441\u043A\u043E\u0433\u043E \u0434\u0435\u0440\u0435\u0432\u0430 (AST). \u003E \u0421\u043E\u0434\u0435\u0440\u0436\u0438\u0442 \u0442\u043E\u043A\u0435\u043D \u0438 \u0434\u043E\u0447\u0435\u0440\u043D\u0438\u0435 \u0432\u0435\u0442\u043A\u0438 \u0434\u043B\u044F \u043F\u0440\u0435\u0434\u0441\u0442\u0430\u0432\u043B\u0435\u043D\u0438\u044F \u0438\u0435\u0440\u0430\u0440\u0445\u0438\u0447\u0435\u0441\u043A\u043E\u0439 \u0441\u0442\u0440\u0443\u043A\u0442\u0443\u0440\u044B \u043A\u043E\u0434\u0430. \u003E \u003E Parameters: \u003E - token: \u0422\u043E\u043A\u0435\u043D, \u043F\u0440\u0435\u0434\u0441\u0442\u0430\u0432\u043B\u0435\u043D\u043D\u044B\u0439 \u044D\u0442\u0438\u043C \u0443\u0437\u043B\u043E\u043C \u003E - branches: \u0414\u043E\u0447\u0435\u0440\u043D\u0438\u0435 \u0443\u0437\u043B\u044B \u0434\u0435\u0440\u0435\u0432\u0430 \u003E public interface IParserRule \u003E Language: C# \u003E \u003E \u041F\u0440\u0430\u0432\u0438\u043B\u043E \u043F\u0430\u0440\u0441\u0435\u0440\u0430, \u043A\u043E\u0442\u043E\u0440\u043E\u0435 \u043E\u043F\u0440\u0435\u0434\u0435\u043B\u044F\u0435\u0442, \u043A\u0430\u043A \u043E\u0431\u0440\u0430\u0431\u0430\u0442\u044B\u0432\u0430\u0442\u044C \u043F\u043E\u0441\u043B\u0435\u0434\u043E\u0432\u0430\u0442\u0435\u043B\u044C\u043D\u043E\u0441\u0442\u044C \u0442\u043E\u043A\u0435\u043D\u043E\u0432. \u003E \u0412\u043E\u0437\u0432\u0440\u0430\u0449\u0430\u0435\u0442 \u043D\u043E\u0432\u044B\u0439 \u0442\u043E\u043A\u0435\u043D \u0441\u0438\u043D\u0442\u0430\u043A\u0441\u0438\u0441\u0430 \u0438 \u0434\u0438\u0430\u043F\u0430\u0437\u043E\u043D\u044B \u0434\u043B\u044F \u0440\u0435\u043A\u0443\u0440\u0441\u0438\u0432\u043D...",
+    "tags": [
+      "class",
+      "interface",
+      "struct",
+      "enum"
+    ],
+    "category": "SynLex"
+  },
+  {
+    "title": "SyntacticAnalysis.AbstractSyntaxTree",
+    "url": "/api/synlex/syntacticanalysis.html#abstractsyntaxtree",
+    "type": "api-member",
+    "project": "SynLex",
+    "content": "public Token Token { get; } \u003E Language: C# \u003E \u003E Return Value: token \u003E \u003E \u0422\u043E\u043A\u0435\u043D, \u0430\u0441\u0441\u043E\u0446\u0438\u0438\u0440\u043E\u0432\u0430\u043D\u043D\u044B\u0439 \u0441 \u044D\u0442\u0438\u043C \u0443\u0437\u043B\u043E\u043C AST \u003E \u003E public ICollection\u0026lt;AbstractSyntaxTree\u0026gt; Branches \u003E Language: C# \u003E \u003E \u041A\u043E\u043B\u043B\u0435\u043A\u0446\u0438\u044F \u0434\u043E\u0447\u0435\u0440\u043D\u0438\u0445 \u0443\u0437\u043B\u043E\u0432 (\u0432\u0435\u0442\u0432\u0435\u0439) \u0434\u0435\u0440\u0435\u0432\u0430 \u003E \u003E",
+    "tags": [
+      "method",
+      "property",
+      "field",
+      "event"
+    ],
+    "category": "SynLex"
+  },
+  {
+    "title": "SyntacticAnalysis.IParserRule",
+    "url": "/api/synlex/syntacticanalysis.html#iparserrule",
+    "type": "api-member",
+    "project": "SynLex",
+    "content": "public (Token? token, List\u0026lt;(int minIndex, int maxIndex)\u0026gt; subsets) Apply(IReadOnlyList\u0026lt;Token\u0026gt; tokens, ParserContext context) \u003E Language: C# \u003E \u003E \u041F\u0440\u0438\u043C\u0435\u043D\u044F\u0435\u0442 \u043F\u0440\u0430\u0432\u0438\u043B\u043E \u043A \u043F\u043E\u0442\u043E\u043A\u0443 \u0442\u043E\u043A\u0435\u043D\u043E\u0432 \u0432 \u0442\u0435\u043A\u0443\u0449\u0435\u0439 \u043F\u043E\u0437\u0438\u0446\u0438\u0438. \u003E \u003E \u003E Parameters: \u003E - tokens: \u0412\u0441\u0435 \u0442\u043E\u043A\u0435\u043D\u044B \u0432\u0445\u043E\u0434\u043D\u043E\u0433\u043E \u043F\u043E\u0442\u043E\u043A\u0430 \u003E - context: \u041A\u043E\u043D\u0442\u0435\u043A\u0441\u0442 \u043F\u0430\u0440\u0441\u0438\u043D\u0433\u0430 \u0441 \u0442...",
+    "tags": [
+      "method",
+      "property",
+      "field",
+      "event"
+    ],
+    "category": "SynLex"
+  },
+  {
+    "title": "SyntacticAnalysis.ParserContext",
+    "url": "/api/synlex/syntacticanalysis.html#parsercontext",
+    "type": "api-member",
+    "project": "SynLex",
+    "content": "public int Position { get; set; } \u003E Language: C# \u003E public List\u0026lt;string\u0026gt; Errors { get; } \u003E Language: C# \u003E \u003E Return Value: [] \u003E \u003E \u0421\u043F\u0438\u0441\u043E\u043A \u043E\u0448\u0438\u0431\u043E\u043A, \u0432\u043E\u0437\u043D\u0438\u043A\u0448\u0438\u0445 \u0432\u043E \u0432\u0440\u0435\u043C\u044F \u043F\u0430\u0440\u0441\u0438\u043D\u0433\u0430 \u003E \u003E public Dictionary\u0026lt;string, object\u0026gt; UserContext { get; set; } \u003E Language: C# \u003E \u003E Return Value: [] \u003E \u003E \u041F\u043E\u043B\u044C\u0437\u043E\u0432\u0430\u0442\u0435\u043B\u044C\u0441\u043A...",
+    "tags": [
+      "method",
+      "property",
+      "field",
+      "event"
+    ],
+    "category": "SynLex"
+  },
+  {
+    "title": "SyntacticAnalysis.Parser",
+    "url": "/api/synlex/syntacticanalysis.html#parser",
+    "type": "api-member",
+    "project": "SynLex",
+    "content": "public bool EnableVariants { get; set; } \u003E Language: C# \u003E \u003E Return Value: false \u003E \u003E \u0412\u043A\u043B\u044E\u0447\u0435\u043D\u0438\u0435 \u0432\u0430\u0440\u0438\u0430\u0442\u0438\u0432\u043D\u043E\u0433\u043E \u043F\u0430\u0440\u0441\u0438\u043D\u0433\u0430 (\u0432\u043E\u0437\u0432\u0440\u0430\u0442 \u0432\u0441\u0435\u0445 \u0432\u043E\u0437\u043C\u043E\u0436\u043D\u044B\u0445 \u0432\u0430\u0440\u0438\u0430\u043D\u0442\u043E\u0432) \u003E \u003E public Parser AddRule(IParserRule rule) \u003E Language: C# \u003E \u003E \u0414\u043E\u0431\u0430\u0432\u043B\u044F\u0435\u0442 \u043F\u0440\u0430\u0432\u0438\u043B\u043E \u043F\u0430\u0440\u0441\u0438\u043D\u0433\u0430 \u003E \u003E public ParserResult Analyze(IReadOnlyList\u0026lt;Token\u0026gt; ...",
+    "tags": [
+      "method",
+      "property",
+      "field",
+      "event"
+    ],
+    "category": "SynLex"
+  },
+  {
+    "title": "SyntacticAnalysis.Rules",
+    "url": "/api/synlex/syntacticanalysis.html#rules",
+    "type": "api-member",
+    "project": "SynLex",
+    "content": "--- Content: public static class CommonParserRules \u003E Language: C# \u003E \u003E \u041A\u043E\u043B\u043B\u0435\u043A\u0446\u0438\u044F \u0431\u0430\u0437\u043E\u0432\u044B\u0445 \u043F\u0440\u0430\u0432\u0438\u043B \u043F\u0430\u0440\u0441\u0435\u0440\u0430 \u0434\u043B\u044F \u0440\u0430\u0441\u043F\u0440\u043E\u0441\u0442\u0440\u0430\u043D\u0451\u043D\u043D\u044B\u0445 \u043A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0446\u0438\u0439 \u003E public class BinaryOperatorRule : IParserRule \u003E Language: C# \u003E \u003E \u041F\u0440\u0430\u0432\u0438\u043B\u043E \u0434\u043B\u044F \u0431\u0438\u043D\u0430\u0440\u043D\u044B\u0445 \u043E\u043F\u0435\u0440\u0430\u0442\u043E\u0440\u043E\u0432: left op right \u003E public class UnaryOperatorRule : IParserRule \u003E L...",
+    "tags": [
+      "method",
+      "property",
+      "field",
+      "event"
+    ],
+    "category": "SynLex"
+  },
+  {
+    "title": "Utils",
+    "url": "/api/synlex/utils.html",
+    "type": "api",
+    "project": "SynLex",
+    "content": "--- Content: public class Trie \u003E Language: C# \u003E \u003E \u041F\u0440\u0435\u0444\u0438\u043A\u0441\u043D\u043E\u0435 \u0434\u0435\u0440\u0435\u0432\u043E \u0434\u043B\u044F \u044D\u0444\u0444\u0435\u043A\u0442\u0438\u0432\u043D\u043E\u0433\u043E \u043F\u043E\u0438\u0441\u043A\u0430 \u0441\u0442\u0440\u043E\u043A. \u003E \u0418\u0441\u043F\u043E\u043B\u044C\u0437\u0443\u0435\u0442\u0441\u044F \u0434\u043B\u044F \u0440\u0430\u0441\u043F\u043E\u0437\u043D\u0430\u0432\u0430\u043D\u0438\u044F \u043A\u043B\u044E\u0447\u0435\u0432\u044B\u0445 \u0441\u043B\u043E\u0432 \u0438 \u043E\u043F\u0435\u0440\u0430\u0442\u043E\u0440\u043E\u0432 \u0432 \u043B\u0435\u043A\u0441\u0435\u0440\u0435. \u003E",
+    "tags": [
+      "class",
+      "interface",
+      "struct",
+      "enum"
+    ],
+    "category": "SynLex"
+  },
+  {
+    "title": "Utils.Trie",
+    "url": "/api/synlex/utils.html#trie",
+    "type": "api-member",
+    "project": "SynLex",
+    "content": "public Trie Add(string text) \u003E Language: C# \u003E \u003E \u0414\u043E\u0431\u0430\u0432\u043B\u044F\u0435\u0442 \u0441\u0442\u0440\u043E\u043A\u0443 \u0432 \u043F\u0440\u0435\u0444\u0438\u043A\u0441\u043D\u043E\u0435 \u0434\u0435\u0440\u0435\u0432\u043E \u003E \u003E \u003E Parameters: \u003E - text: \u0421\u0442\u0440\u043E\u043A\u0430 \u0434\u043B\u044F \u0434\u043E\u0431\u0430\u0432\u043B\u0435\u043D\u0438\u044F \u003E \u003E Returns: \u0422\u0435\u043A\u0443\u0449\u0438\u0439 \u0443\u0437\u0435\u043B Trie \u0434\u043B\u044F \u0446\u0435\u043F\u043E\u0447\u043A\u0438 \u0432\u044B\u0437\u043E\u0432\u043E\u0432 \u003E public Trie AddAll(IEnumerable\u0026lt;string\u0026gt; texts) \u003E Language: C# \u003E \u003E \u0414\u043E\u0431\u0430\u0432\u043B\u044F\u0435\u0442 \u043D\u0435\u0441\u043A\u043E\u043B\u044C\u043A\u043E \u0441\u0442\u0440\u043E\u043A \u0432 \u043F\u0440\u0435\u0444\u0438\u043A\u0441\u043D\u043E\u0435 \u0434\u0435...",
+    "tags": [
+      "method",
+      "property",
+      "field",
+      "event"
+    ],
+    "category": "SynLex"
+  },
+  {
+    "title": "VirtualMachine",
+    "url": "/api/synlex/virtualmachine.html",
+    "type": "api",
+    "project": "SynLex",
+    "content": "--- Content: public class BytecodeCompiler \u003E Language: C# \u003E \u003E \u041F\u0440\u0438\u043C\u0435\u0440 \u043A\u043E\u043C\u043F\u0438\u043B\u044F\u0442\u043E\u0440\u0430 AST \u2192 \u0431\u0430\u0439\u0442\u043A\u043E\u0434 \u0434\u043B\u044F \u0441\u0442\u0435\u043A\u043E\u0432\u043E\u0439 \u0432\u0438\u0440\u0442\u0443\u0430\u043B\u044C\u043D\u043E\u0439 \u043C\u0430\u0448\u0438\u043D\u044B \u003E public static class BytecodeRules \u003E Language: C# \u003E \u003E \u0411\u0430\u0437\u043E\u0432\u044B\u0435 \u043F\u0440\u0430\u0432\u0438\u043B\u0430 \u0433\u0435\u043D\u0435\u0440\u0430\u0446\u0438\u0438 \u0431\u0430\u0439\u0442\u043A\u043E\u0434\u0430 \u003E public enum OpCode \u003E Language: C# \u003E \u003E \u041A\u043E\u0434\u044B \u043E\u043F\u0435\u0440\u0430\u0446\u0438\u0439 \u0434\u043B\u044F \u0441\u0442\u0435\u043A\u043E\u0432\u043E\u0439 \u0432\u0438\u0440\u0442\u0443\u0430\u043B\u044C\u043D\u043E\u0439 \u043C\u0430\u0448\u0438\u043D\u044B \u003E public class StackVM \u003E Language: C# \u003E \u003E \u0421\u0442\u0435\u043A\u043E\u0432\u0430\u044F \u0432\u0438\u0440\u0442\u0443\u0430\u043B\u044C\u043D\u0430\u044F \u043C\u0430\u0448\u0438\u043D\u0430 \u0434\u043B\u044F \u0432\u044B\u043F\u043E\u043B\u043D\u0435\u043D\u0438\u044F \u0438\u043D\u0441\u0442\u0440\u0443\u043A\u0446\u0438\u0439 \u003E public class VMExecutionContext \u003E Language: C# \u003E \u003E \u041A\u043E\u043D\u0442\u0435\u043A\u0441\u0442 \u0432\u044B\u043F\u043E\u043B\u043D\u0435\u043D\u0438\u044F \u0432\u0438\u0440\u0442\u0443\u0430\u043B\u044C\u043D\u043E\u0439 \u043C\u0430\u0448\u0438\u043D\u044B \u003E public ...",
+    "tags": [
+      "class",
+      "interface",
+      "struct",
+      "enum"
+    ],
+    "category": "SynLex"
+  },
+  {
+    "title": "VirtualMachine.BytecodeCompiler",
+    "url": "/api/synlex/virtualmachine.html#bytecodecompiler",
+    "type": "api-member",
+    "project": "SynLex",
+    "content": "public BytecodeCompiler AddRule(int tokenType, Func\u0026lt;AbstractSyntaxTree, List\u0026lt;Instruction\u0026gt;\u0026gt; generator) \u003E Language: C# \u003E public List\u0026lt;Instruction\u0026gt; Compile(AbstractSyntaxTree ast) \u003E Language: C# \u003E",
+    "tags": [
+      "method",
+      "property",
+      "field",
+      "event"
+    ],
+    "category": "SynLex"
+  },
+  {
+    "title": "VirtualMachine.BytecodeRules",
+    "url": "/api/synlex/virtualmachine.html#bytecoderules",
+    "type": "api-member",
+    "project": "SynLex",
+    "content": "public static Func\u0026lt;AbstractSyntaxTree, List\u0026lt;Instruction\u0026gt;\u0026gt; PushNumber() \u003E Language: C# \u003E \u003E \u041F\u0440\u0430\u0432\u0438\u043B\u043E \u0434\u043B\u044F \u0447\u0438\u0441\u043B\u043E\u0432\u044B\u0445 \u043B\u0438\u0442\u0435\u0440\u0430\u043B\u043E\u0432: \u0433\u0435\u043D\u0435\u0440\u0438\u0440\u0443\u0435\u0442 PUSH \u0437\u043D\u0430\u0447\u0435\u043D\u0438\u044F \u003E \u003E public static Func\u0026lt;AbstractSyntaxTree, List\u0026lt;Instruction\u0026gt;\u0026gt; BinaryOp(OpCode opCode) \u003E Language: C# \u003E \u003E \u041F\u0440\u0430\u0432\u0438\u043B\u043E \u0434\u043B\u044F \u0431\u0438\u043D\u0430\u0440\u043D\u043E\u0439 \u043E\u043F\u0435...",
+    "tags": [
+      "method",
+      "property",
+      "field",
+      "event"
+    ],
+    "category": "SynLex"
+  },
+  {
+    "title": "VirtualMachine.OpCode",
+    "url": "/api/synlex/virtualmachine.html#opcode",
+    "type": "api-member",
+    "project": "SynLex",
+    "content": "",
+    "tags": [
+      "method",
+      "property",
+      "field",
+      "event"
+    ],
+    "category": "SynLex"
+  },
+  {
+    "title": "VirtualMachine.StackVM",
+    "url": "/api/synlex/virtualmachine.html#stackvm",
+    "type": "api-member",
+    "project": "SynLex",
+    "content": "public StackVM(List\u0026lt;Instruction\u0026gt; code) \u003E Language: C# \u003E public object? Execute() \u003E Language: C# \u003E public Stack\u0026lt;object\u0026gt; Stack \u003E Language: C# \u003E public Dictionary\u0026lt;string, object\u0026gt; Variables \u003E Language: C# \u003E",
+    "tags": [
+      "method",
+      "property",
+      "field",
+      "event"
+    ],
+    "category": "SynLex"
+  },
+  {
+    "title": "VirtualMachine.VMExecutionContext",
+    "url": "/api/synlex/virtualmachine.html#vmexecutioncontext",
+    "type": "api-member",
+    "project": "SynLex",
+    "content": "public Dictionary\u0026lt;string, object\u0026gt; UserContext { get; } \u003E Language: C# \u003E \u003E Return Value: [] \u003E \u003E \u041F\u043E\u043B\u044C\u0437\u043E\u0432\u0430\u0442\u0435\u043B\u044C\u0441\u043A\u0438\u0439 \u043A\u043E\u043D\u0442\u0435\u043A\u0441\u0442 \u0434\u043B\u044F \u0445\u0440\u0430\u043D\u0435\u043D\u0438\u044F \u0434\u043E\u043F\u043E\u043B\u043D\u0438\u0442\u0435\u043B\u044C\u043D\u044B\u0445 \u0434\u0430\u043D\u043D\u044B\u0445 \u003E \u003E public int InstructionPointer { get; set; } \u003E Language: C# \u003E \u003E \u0422\u0435\u043A\u0443\u0449\u0438\u0439 \u0443\u043A\u0430\u0437\u0430\u0442\u0435\u043B\u044C \u0438\u043D\u0441\u0442\u0440\u0443\u043A\u0446\u0438\u0439 \u003E \u003E public Stack\u0026lt;object\u0026gt; Stack { get...",
+    "tags": [
+      "method",
+      "property",
+      "field",
+      "event"
+    ],
+    "category": "SynLex"
+  },
+  {
+    "title": "VirtualMachine.IVMExecutionRule",
+    "url": "/api/synlex/virtualmachine.html#ivmexecutionrule",
+    "type": "api-member",
+    "project": "SynLex",
+    "content": "",
+    "tags": [
+      "method",
+      "property",
+      "field",
+      "event"
+    ],
+    "category": "SynLex"
+  },
+  {
+    "title": "VirtualMachine.OpCodeExecutionRule",
+    "url": "/api/synlex/virtualmachine.html#opcodeexecutionrule",
+    "type": "api-member",
+    "project": "SynLex",
+    "content": "public virtual bool CanExecute(Instruction instruction) \u003E Language: C# \u003E public abstract VMExecutionResult Execute(Instruction instruction, VMExecutionContext context) \u003E Language: C# \u003E",
+    "tags": [
+      "method",
+      "property",
+      "field",
+      "event"
+    ],
+    "category": "SynLex"
+  },
+  {
+    "title": "VirtualMachine.SimpleVMExecutionRule",
+    "url": "/api/synlex/virtualmachine.html#simplevmexecutionrule",
+    "type": "api-member",
+    "project": "SynLex",
+    "content": "public SimpleVMExecutionRule(OpCode opCode, Func\u0026lt;Instruction, VMExecutionContext, VMExecutionResult\u0026gt; executor) \u003E Language: C# \u003E \u003E \u0421\u043E\u0437\u0434\u0430\u0451\u0442 \u043F\u0440\u043E\u0441\u0442\u043E\u0435 \u043F\u0440\u0430\u0432\u0438\u043B\u043E \u0432\u044B\u043F\u043E\u043B\u043D\u0435\u043D\u0438\u044F VM \u003E \u003E \u003E Parameters: \u003E - opCode: \u041A\u043E\u0434 \u043E\u043F\u0435\u0440\u0430\u0446\u0438\u0438, \u043A\u043E\u0442\u043E\u0440\u044B\u0439 \u043E\u0431\u0440\u0430\u0431\u0430\u0442\u044B\u0432\u0430\u0435\u0442 \u044D\u0442\u043E \u043F\u0440\u0430\u0432\u0438\u043B\u043E \u003E - executor: \u0424\u0443\u043D\u043A\u0446\u0438\u044F \u0432\u044B\u043F\u043E\u043B\u043D\u0435\u043D\u0438\u044F \u0438\u043D\u0441\u0442\u0440\u0443\u043A\u0446\u0438\u0438 \u003E pub...",
+    "tags": [
+      "method",
+      "property",
+      "field",
+      "event"
+    ],
+    "category": "SynLex"
+  },
+  {
+    "title": "VirtualMachine.VirtualMachine",
+    "url": "/api/synlex/virtualmachine.html#virtualmachine",
+    "type": "api-member",
+    "project": "SynLex",
+    "content": "public VirtualMachine AddRule(IVMExecutionRule rule) \u003E Language: C# \u003E \u003E \u0414\u043E\u0431\u0430\u0432\u043B\u044F\u0435\u0442 \u043F\u0440\u0430\u0432\u0438\u043B\u043E \u0432\u044B\u043F\u043E\u043B\u043D\u0435\u043D\u0438\u044F \u0438\u043D\u0441\u0442\u0440\u0443\u043A\u0446\u0438\u0438 \u003E \u003E public VirtualMachine SetDefaultHandler(Func\u0026lt;Instruction, VMExecutionContext, VMExecutionResult\u0026gt; handler) \u003E Language: C# \u003E \u003E \u0423\u0441\u0442\u0430\u043D\u0430\u0432\u043B\u0438\u0432\u0430\u0435\u0442 \u043E\u0431\u0440\u0430\u0431\u043E\u0442\u0447\u0438\u043A \u043F\u043E \u0443\u043C\u043E\u043B\u0447\u0430\u043D\u0438\u044E \u0434\u043B\u044F \u043D\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u043D\u044B\u0445...",
+    "tags": [
+      "method",
+      "property",
+      "field",
+      "event"
+    ],
+    "category": "SynLex"
+  },
+  {
+    "title": "VirtualMachine.VirtualMachine\u003CT\u003E",
+    "url": "/api/synlex/virtualmachine.html#virtualmachine_t_",
+    "type": "api-member",
+    "project": "SynLex",
+    "content": "public VirtualMachine\u0026lt;T\u0026gt; AddRule(IVMExecutionRule rule) \u003E Language: C# \u003E \u003E \u0414\u043E\u0431\u0430\u0432\u043B\u044F\u0435\u0442 \u043F\u0440\u0430\u0432\u0438\u043B\u043E \u0432\u044B\u043F\u043E\u043B\u043D\u0435\u043D\u0438\u044F \u0438\u043D\u0441\u0442\u0440\u0443\u043A\u0446\u0438\u0438 \u003E \u003E public VirtualMachine\u0026lt;T\u0026gt; SetDefaultHandler(Func\u0026lt;Instruction, VMExecutionContext, VMExecutionResult\u0026gt; handler) \u003E Language: C# \u003E \u003E \u0423\u0441\u0442\u0430\u043D\u0430\u0432\u043B\u0438\u0432\u0430\u0435\u0442 \u043E\u0431\u0440\u0430\u0431\u043E\u0442\u0447\u0438\u043A \u043F\u043E \u0443\u043C\u043E\u043B\u0447\u0430\u043D...",
+    "tags": [
+      "method",
+      "property",
+      "field",
+      "event"
+    ],
+    "category": "SynLex"
+  },
+  {
+    "title": "VirtualMachine.VMBuiltinRules",
+    "url": "/api/synlex/virtualmachine.html#vmbuiltinrules",
+    "type": "api-member",
+    "project": "SynLex",
+    "content": "public static IVMExecutionRule PushRule() \u003E Language: C# \u003E \u003E \u041F\u0440\u0430\u0432\u0438\u043B\u043E \u0434\u043B\u044F Push - \u0437\u0430\u0433\u0440\u0443\u0436\u0430\u0435\u0442 \u0437\u043D\u0430\u0447\u0435\u043D\u0438\u0435 \u043D\u0430 \u0441\u0442\u0435\u043A \u003E \u003E public static IVMExecutionRule PopRule() \u003E Language: C# \u003E \u003E \u041F\u0440\u0430\u0432\u0438\u043B\u043E \u0434\u043B\u044F Pop - \u0443\u0434\u0430\u043B\u044F\u0435\u0442 \u0437\u043D\u0430\u0447\u0435\u043D\u0438\u0435 \u0441\u043E \u0441\u0442\u0435\u043A\u0430 \u003E \u003E public static IVMExecutionRule DupRule() \u003E Language: C# \u003E \u003E \u041F\u0440\u0430\u0432\u0438\u043B\u043E \u0434\u043B\u044F Dup - \u0434\u0443\u0431...",
+    "tags": [
+      "method",
+      "property",
+      "field",
+      "event"
+    ],
+    "category": "SynLex"
+  },
+  {
+    "title": "IgdrasilEngine",
+    "url": "/IgdrasilAI/api/igdrasilengine/index.html",
+    "type": "api",
+    "project": "IgdrasilEngine",
+    "content": "Namespace IgdrasilEngine",
+    "tags": [
+      "namespace"
+    ],
+    "category": "Namespaces"
+  },
+  {
+    "title": "Engine",
+    "url": "/api/igdrasilengine/engine.html",
+    "type": "api",
+    "project": "IgdrasilEngine",
+    "content": "Namespaces: AI",
+    "tags": [
+      "class",
+      "interface",
+      "struct",
+      "enum"
+    ],
+    "category": "IgdrasilEngine"
+  },
+  {
+    "title": "Engine.AI",
+    "url": "/api/igdrasilengine/engine.html#ai",
+    "type": "api-member",
+    "project": "IgdrasilEngine",
+    "content": "Namespaces: Examples Tests Text Neural",
+    "tags": [
+      "method",
+      "property",
+      "field",
+      "event"
+    ],
+    "category": "IgdrasilEngine"
+  }
+]
